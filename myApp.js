@@ -3,8 +3,9 @@ var fs = require("fs");
 var app = express();
 app.use(express.static('public'));
 
-app.get('/index.htm', function (req, res) {
-   res.sendFile( __dirname + "/" + "index.htm" );
+app.get('/', function (req, res) {
+   //res.sendFile( __dirname + "/" + "index.htm" );
+   res.redirect('./UIDemo/index.html');
 })
 //InsertAndSelect page
 app.get('/process_get', function (req, res) {
