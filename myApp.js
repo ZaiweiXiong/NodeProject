@@ -23,7 +23,7 @@ app.get('/process_get', function (req, res) {
 //  del_user 页面响应
 app.get('/del_user', function (req, res) {
    console.log("/del_user 响应 DELETE 请求");
-   res.send('删除页面');
+   res.send('page is for deleting');
    var userName =req.query.first_name;
    deleteUser(userName);
 })
