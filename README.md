@@ -4,5 +4,5 @@
 #test from Intellij
 #git add *;/git commit -m "";/git push orign master/
 #git checkout -b test /git commit -a -m "added new branch test";
-#/git push origin test;/git branch -D test
+#git push origin test;/git branch -D test
 #EasyUI+Node.js+sqlite DB
