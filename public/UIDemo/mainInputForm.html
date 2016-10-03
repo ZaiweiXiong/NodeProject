@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+
+    <title>Charts | Creative - Bootstrap 3 Responsive Admin Template</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!--    <link href="css/bootstrap-combobox.css" rel="stylesheet"> -->
+
+    <!--external css-->
+    <!-- font icon -->
+    <link href="css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <link href="./plus/table/bootstrap-table.min.css" rel="stylesheet" />
+    <link href="./plus/datatime/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <!--    <link href="css/zzStyle.css" rel="stylesheet" /> -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <script src="js/lte-ie7.js"></script>
+    <![endif]-->
+
+
+
+    <style type="text/css">
+        td {
+            width: 100%;
+            word-break: keep-all;
+            /* 不换行 */
+            white-space: nowrap;
+            /* 不换行 */
+            overflow: hidden;
+            /* 内容超出宽度时隐藏超出部分的内容 */
+            text-overflow: ellipsis;
+            /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+        }
+    </style>
+</head>
+
+<body>
+    <!-- container section start -->
+    <section id="container" class="">
+        <!--header start-->
+
+        <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="菜单开关" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
+
+            <!--logo start-->
+            <a href="main.html" class="logo">演示 <span class="lite">用例</span></a>
+            <!--logo end-->
+
+
+
+            <div class="top-nav notification-row">
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="img/avatar1_small.jpg">
+                            </span>
+                            <span class="username">张三</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+
+                            <li>
+                                <a href="login.html"><i class="icon_key_alt"></i>注销</a>
+                            </li>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_profile"></i>用户管理</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon_mail_alt"></i> 添加用户</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon_clock_alt"></i> 添加组</a>
+                            </li>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_chat_alt"></i> 菜单权限</a>
+                            </li>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_key_alt"></i> 退出</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+        </header>
+        <!--header end-->
+
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar" class="nav-collapse ">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu">
+
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="icon_table"></i>
+                            <span>录入管理</span>
+                            <span class="menu-arrow arrow_carrot-right"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a class="" href="mainInputForm.html">主单录入</a></li>
+                            <li><a class="" href="">分单录入</a></li>
+                            <li><a class="" href="">单号领用</a></li>
+                            <li><a class="" href="">单号录入</a></li>
+                            <li><a class="" href="">单号批量录入</a></li>
+                            <li><a class="" href="">订舱信息录入</a></li>
+                            <li><a class="" href="">销售信息录入</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="icon_table"></i>
+                            <span>基础数据维护</span>
+                            <span class="menu-arrow arrow_carrot-right"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a class="" href="">航空公司维护</a></li>
+                            <li><a class="" href="">目的港维护</a></li>
+                            <li><a class="" href="">杂责维护</a></li>
+                            <li><a class="" href="">代理维护</a></li>
+                            <li><a class="" href="">TACT维护</a></li>
+                            <li><a class="" href="">客户信息维护</a></li>
+                            <li><a class="" href="">发货人信息维护</a></li>
+                            <li><a class="" href="">收货人信息维护</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="icon_table"></i>
+                            <span>统计</span>
+                            <span class="menu-arrow arrow_carrot-right"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a class="" href="chart.html">LH普仓货量统计</a></li>
+                            <li><a class="" href="">LH危品货量统计</a></li>
+                            <li><a class="" href="">LH货量统计(全部)</a></li>
+                            <li><a class="" href="">BGS危品货量统计</a></li>
+                            <li><a class="" href="">BGS货量统计(全部)</a></li>
+                            <li><a class="" href="">国航危品货量统计</a></li>
+                            <li><a class="" href="">国航货量统计(全部)</a></li>
+                            <li><a class="" href="">主单剩余</a></li>
+                            <li><a class="" href="">鉴定统计</a></li>
+                            <li><a class="" href="">空白1</a></li>
+                            <li><a class="" href="">空白2</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="icon_table"></i>
+                            <span>财务汇总  </span>
+                            <span class="menu-arrow arrow_carrot-right"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a class="" href="">入账</a></li>
+                            <li><a class="" href="">销账</a></li>
+                            <li><a class="" href="">封账</a></li>
+                            <li><a class="" href="">发票信息</a></li>
+                            <li><a class="" href="">开票信息</a></li>
+                            <li>
+                                <a class="" href=""> </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>
+        <!--sidebar end-->
+
+        <!--main content start-->
+        <section id="main-content">
+            <section class="wrapper">
+                <div class="panel" class="col-lg-12">
+
+                    <div class="row show-grid" margin-bottom="10px">
+                        <div class="col-md-12">
+                            <button class="btn btn-info">提交</button>
+                            <button class="btn btn-info">分单</button>
+                            <button class="btn btn-info">同步</button>
+                            <button class="btn btn-info">删除</button>
+                            <button class="btn btn-info">计算</button>
+                            <button class="btn btn-info">借鉴</button>
+                            <button class="btn btn-info">尺寸</button>
+                            <button class="btn btn-info">费用</button>
+                            <button class="btn btn-info">上传</button>
+                            <button class="btn btn-info">关闭</button>
+                            <button class="btn btn-info">提闭</button>
+                            <button class="btn btn-info">清空</button>
+                            <button class="btn btn-info">唛头</button>
+                            <button class="btn btn-info">文档</button>
+                            <button class="btn btn-info">打印</button>
+                            <button class="btn btn-info">做账</button>
+                            <button class="btn btn-info">传真</button>
+                            <button class="btn btn-info">Hub</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 panel">
+                        <header class="panel-heading">
+                            快捷查询
+                        </header>
+
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="mainOrderID" class="col-md-3 control-label">主单号</label>
+                                <div class="col-md-9">
+                                    <select class="combobox form-control">
+                                        <option value="" selected="selected"></option>
+                                        <option value="AL">列表数据1</option>
+                                        <option value="AK">列表数据2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-4 panel">
+                        <div class="row">
+                            <label class="col-md-12" align="center"><h4><b>主单直接录入</b></h4></label>
+                        </div>
+                        <div class="row">
+                            <label class="col-md-6">主：不含</label> <label class="col-md-6">分：不含</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 panel">
+                        <div class="row">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1">主单作废
+                            <input type="checkbox" id="inlineCheckbox2" value="option1">操作货物
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" id="inlineCheckbox3" value="option1">最低报价
+                            <input type="checkbox" id="inlineCheckbox4" value="option1">锁定同步
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <table border="1" style="width:500px">
+                            <tr>
+                                <td>
+                                    <label>MAWB NO</label>
+                                </td>
+                                <td>
+                                    <input type="text" class="zz-default-margin"></input>
+                                </td>
+                                <td>
+                                    主单日期
+                                </td>
+                                <td>
+                                    <input name="status1" class="ZZCombobox" id="order_status1" style="width:190px;" value="1" />
+                                </td>
+                                <td>
+                                    <label>主单公司*</label>
+                                </td>
+                                <td>
+                                    <input type="text" value="" class="zz-default-margin"></input>
+                                </td>
+                                <td>
+                                    <label>录入员</label>
+                                </td>
+                                <td>
+                                    <input type="text" value="" class="zz-default-margin"></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <span style="color:blue">发货人名称及地址*</span>&nbsp&nbsp&nbsp&nbsp<span>业务</span>
+                                </td>
+                                <td>
+                                    <input name="status1" class="ZZCombobox" style="width:190px;" value="0" />
+                                </td>
+                                <td>
+                                    <span>货物类型*</span>
+                                </td>
+                                <td>
+                                    <input name="status1" class="ZZCombobox" style="width:190px;" value="0" />
+                                </td>
+                                <td>
+                                    <span>其他费用金额</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan=" 5 ">
+                                    <label></label>
+                                </td>
+                                <td colspan=" 2 ">
+                                    <label style="backgrand:red"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span style="color:blue ">收货人名称及地址*</span>&nbsp&nbsp&nbsp&nbsp
+                                </td>
+                                <td>
+                                    <span>借单状态</span>
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " style="width:190px; " value="0 " />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan=" 5 ">
+                                    <label></label>
+                                </td>
+                                <td colspan=" 2 ">
+                                    <label style="backgrand:red">其他费用详情:</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>制单公司</label>
+                                </td>
+                                <td>
+                                    <label>IATA代码</label>
+                                </td>
+                                <td>
+                                    <label>始发站</label>
+                                </td>
+                                <td>
+                                    <label>目的地*</label>
+                                </td>
+                                <td>
+                                    <label>TO</label>
+                                </td>
+                                <td>
+                                    <label>BY</label>
+                                </td>
+                                <td>
+                                    <label>Account No</label>
+                                </td>
+                                <td>
+                                    <label>板号</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" value="" class="zz-default-margin"></input>
+                                </td>
+                                <td>
+                                    <input type="text" value="" class="zz-default-margin"></input>
+                                </td>
+                                <td>
+                                    <input type="text" value="" class="zz-default-margin"></input>
+                                </td>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " style="width:190px; " value="0 " />
+                                </td>
+                                <td>
+                                    <input type="text" value="" class="zz-default-margin"></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>航空公司*</label>
+                                </td>
+                                <td>
+                                    <label>航班号</label>
+                                </td>
+                                <td>
+                                    <label>航班日期</label>
+                                </td>
+                                <td>
+                                    <label>币值*</label>
+                                </td>
+                                <td>
+                                    <label>预付到付</label>
+                                </td>
+                                <td>
+                                    <label>NVD</label>
+                                </td>
+                                <td>
+                                    <label>NCV</label>
+                                </td>
+                                <td>
+                                    <label>NIL</label>
+                                </td>
+                                <td>
+                                    <label>主单状态</label>
+                                </td>
+                                <td>
+                                    <label>统计状态</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <label>此处应该是一个日期控件，待实现</label>
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " value="0 " />
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " value="0 " />
+                                </td>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <label></label>
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " value="0 " />
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " style="width:190px; " value="0 " />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>主单件数/单位</label>
+                                </td>
+                                <td>
+                                    <label>主单毛重</label>
+                                </td>
+                                <td>
+                                    <label>KG/LB</label>
+                                </td>
+                                <td colspan="2">
+                                    <label>等级</label>
+                                    <input type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <span style="color:green">靠级</span>
+                                    <span>商品代码</span>
+                                </td>
+                                <td>
+                                    <label>计费重</label>
+                                </td>
+                                <td>
+                                    <label>主单运价</label>
+                                </td>
+                                <td>
+                                    <label style="color:red">主单纯运费</label>
+                                </td>
+                                <td>
+                                    <label>主单运费</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text " class="zz-default-margin "></input>
+                                    <input name="status1 " class="ZZCombobox " value="0 " />
+                                </td>
+                                <td>
+                                    <input type="text " value=" " class="zz-default-margin "></input>
+                                </td>
+                                <td>
+                                    <input type="text " value=" " class="zz-default-margin "></input>
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " value="0 " />
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " value="0 " />
+                                </td>
+                                <td>
+                                    <input type="text " value=" " class="zz-default-margin "></input>
+                                </td>
+                                <td>
+                                    <input type="text " value=" " class="zz-default-margin "></input>
+                                </td>
+                                <td>
+                                    <input type="text " value=" " class="zz-default-margin "></input>
+                                </td>
+                                <td>
+                                    <input type="text " value=" " class="zz-default-margin "></input>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <span style="color:green; margin-left: 30%">货名</span>
+                                    <input type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <span style="color:red">CONSOL</span>
+                                </td>
+                                <td colspan="2">
+                                    <span style="margin-left: 30%">尺寸</span>
+                                </td>
+                                <td colspan="2">
+                                    <span style="margin-left: 30%">体积</span>
+                                    <input type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <span style="color:green">Handling Info</span>
+                                </td>
+                                <td>
+                                    <span>操作地点</span>
+                                </td>
+                                <td>
+                                    <input name="status1 " class="ZZCombobox " value="0 " />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <input type="text" style="width:100%" value=" "></input>
+                                </td>
+                                <td colspan="2">
+                                    <input type="text " style="width:100%" value=" " class="zz-default-margin "></input>
+                                </td>
+                                <td colspan="2">
+                                    <input type="text " style="width:100%" value=" " class="zz-default-margin "></input>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+        <!--main content end-->
+    </section>
+    <!-- container section end -->
+    <!-- javascripts -->
+    <script src="js/jquery.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <!-- nice scroll -->
+    <script src="js/jquery.scrollTo.min.js "></script>
+    <script src="js/jquery.nicescroll.js " type="text/javascript "></script>
+    <!-- chartjs -->
+    <script src="assets/chart-master/Chart.js "></script>
+    <!--custome script for all page-->
+    <script src="js/scripts.js "></script>
+
+    <!--    <script type="text/javascript " src="./plus/import.inc.js "></script>       -->
+    <script src="./plus/table/bootstrap-table.min.js"></script>
+    <script src="./plus/table/bootstrap-table-zh-CN.min.js"></script>
+    <script src="./plus/table/bootstrap-table-edit.js"></script>
+    <script src="./plus/datatime/bootstrap-datetimepicker.min.js"></script>
+    <script src="./plus/datatime/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="./plus/bootstrap-select.js"></script>
+
+    <!--    <script src="js/bootstrap-combobox.js "></script> -->
+
+    <script type="text/javascript ">
+        $(function() {
+            //下拉框1
+            $('.ZZCombobox').bootstrapSelect({
+                data: [{
+                    id: 1,
+                    text: '1999/11/30'
+                }, {
+                    id: 2,
+                    text: '下拉框测试数据1'
+                }],
+                //url:'',
+                downBorder: true,
+                onSelect: function(val, rec) {
+
+                }
+            });
+        });
+
+        $('.form_datetime').datetimepicker({
+            weekStart: 1,
+            todayBtn: 1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            forceParse: 0,
+            language: 'zh-CN',
+            format: 'yyyy-mm-dd hh:ii:ss',
+            pickerPosition: 'bottom-left',
+            showMeridian: 1
+        });
+    </script>
+</body>
+
+</html>

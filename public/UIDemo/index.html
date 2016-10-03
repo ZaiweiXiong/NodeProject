@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
+<script type="text/javascript" src="easyui/jquery.min.js"></script>
+<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+</head>
+<body>
+<form action="http://xzw:8081/process_get" method="GET">
+
+First Name: 
+<input class="easyui-textbox" type="text" name="first_name">  
+
+
+Last Name: 
+<input class="easyui-textbox" type="text" name="last_name">
+
+<input class="easyui-linkbutton" type="submit" value="Submit">
+
+</form>
+
+<table class="easyui-datagrid" title="Basic DataGrid" style="width:700px;height:250px"
+            data-options="singleSelect:true,collapsible:true,url:'data/data.json',method:'get'">
+        <thead>
+            <tr>
+                <th data-options="field:'firstName',width:80">FirstName</th>
+                <th data-options="field:'lastName',width:100">LastName</th>
+                
+            </tr>
+        </thead>
+    </table>
+	<p>
+	<div>
+	<form action="http://xzw:8081/del_user" method="GET">
+	<input class="easyui-textbox" type="text" name="first_name">  
+	<input class="easyui-textbox" type="text" name="last_name">
+	<input class="easyui-linkbutton" type="submit" value="Delect">
+	</form>
+	</div>
+	</p>
+</body>
+</html>
