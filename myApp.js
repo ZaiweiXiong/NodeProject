@@ -26,9 +26,11 @@ app.get('/process_get', function (req, res) {
 app.get('/del_user', function (req, res) {
    console.log("/del_user 响应 DELETE 请求");
    //res.send('page is for deleting');
-   res.redirect('./UIDemo/index.html');
    var userName =req.query.first_name;
    deleteUser(userName);
+   res.redirect('./UIDemo/index.html');
+
+
 })
 
 
