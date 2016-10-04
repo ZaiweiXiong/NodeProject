@@ -7,6 +7,7 @@ app.get('/', function (req, res) {
    //res.sendFile( __dirname + "/" + "index.htm" );
    res.redirect('./UIDemo/index.html');
 })
+
 //InsertAndSelect page
 app.get('/process_get', function (req, res) {
    // 输出 JSON 格式
@@ -29,7 +30,6 @@ app.get('/del_user', function (req, res) {
    var userName =req.query.first_name;
    deleteUser(userName);
    res.redirect('./UIDemo/index.html');
-
 
 })
 
