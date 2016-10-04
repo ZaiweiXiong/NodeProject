@@ -19,8 +19,15 @@ Last Name:
 
 </form>
 
+<div>
+	<form action="http://xzw:8081/del_user" method="GET">
+		<input class="easyui-textbox" type="text" name="first_name">
+		<input class="easyui-linkbutton" type="submit" value="Delect">
+	</form>
+</div>
+
 <table class="easyui-datagrid" title="Basic DataGrid" style="width:700px;height:250px"
-            data-options="singleSelect:true,collapsible:true,url:'data/data.json',method:'get'">
+            data-options="rownumbers:true,singleSelect:true,collapsible:true,url:'data/data.json',method:'get'">
         <thead>
             <tr>
                 <th data-options="field:'firstName',width:80">FirstName</th>
@@ -30,15 +37,10 @@ Last Name:
         </thead>
     </table>
 
-	<div>
-	<form action="http://xzw:8081/del_user" method="GET">
-	<input class="easyui-textbox" type="text" name="first_name">  
-	
-	<input class="easyui-linkbutton" type="submit" value="Delect">
-	</form>
-	</div>
 
+<p>
 <input id="button1" type="button" value="testbutton"/>
+</p>
 <!-- javascripts -->
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="testjs/javascriptFuns.js"></script>
