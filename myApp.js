@@ -15,7 +15,8 @@ app.get('/process_get', function (req, res) {
        last_name:req.query.last_name
    };
    console.log(response);
-   res.end(JSON.stringify(response));
+   //res.end(JSON.stringify(response));
+   res.redirect('./UIDemo/index.html');
    //var Obj =JSON.stringify(response);
    insertAndSelectDB(req.query.first_name,req.query.last_name);
    console.log(req.query.first_name,req.query.last_name);
@@ -24,7 +25,8 @@ app.get('/process_get', function (req, res) {
 //  del_user 页面响应
 app.get('/del_user', function (req, res) {
    console.log("/del_user 响应 DELETE 请求");
-   res.send('page is for deleting');
+   //res.send('page is for deleting');
+   res.redirect('./UIDemo/index.html');
    var userName =req.query.first_name;
    deleteUser(userName);
 })
