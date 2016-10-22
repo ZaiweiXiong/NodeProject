@@ -12,3 +12,6 @@
 #Repository2
 #branch name
 #ProjectName+fatureName+doc
+# jenkins CLI
+#java -jar jenkins-cli.jar -s http://localhost:8080/ help --username admin --password admin
+#java -jar jenkins-cli.jar -s http://localhost:8080/ login --username admin --password admin
