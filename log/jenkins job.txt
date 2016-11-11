@@ -1,0 +1,3 @@
+cd C:\Users\xioza01\.jenkins\workspace\test\doctestOne
+git rev-parse HEAD >C:\mynode\log\logBranch.log
+git ls-remote --heads origin >C:\mynode\log\logBranchs.log
