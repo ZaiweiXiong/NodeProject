@@ -11,9 +11,9 @@ console.log("command->"+command);
       (error, stdout, stderr) {
       
       if (error) {
-         console.log(error.stack);
-         console.log('Error code: '+error.code);
-         console.log('Signal received: '+error.signal);
+         console.log('delete folder!');
+         //console.log('Error code: '+error.code);
+         //console.log('Signal received: '+error.signal);
       }
      
 	  var file_='C:/mynode/log/updatedfileName.txt';
