@@ -1,0 +1,12 @@
+jsonpcallback
+([
+
+{"product":"clarity"},
+{"product":"clarity"},
+{"product":"APM"},
+{"product":"SiteMinder"},
+{"product":"Java"},
+{"product":"Auto"},
+{"product":"CLARITY PPM BUS OBJECTS, REPORTING & SOLUTION PACKS"}
+
+])

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Tabs - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="easyUI/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="easyUI/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="easyUI/demo.css">
+    <script type="text/javascript" src="easyUI/jquery.min.js"></script>
+    <script type="text/javascript" src="easyUI/jquery.easyui.min.js"></script>
+	
+	<script type="text/javascript" src="js/search.js"></script>
+	<script type="text/javascript" src="js/test.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/createElement.js"></script>
+	
+</head>
+<body>
+    <h2>Basic Tabs</h2>
+  
+	<div id="time" >
+	Click on this button for display time:
+	<button id="buttontime" onclick="startTime()">Time</button>
+	</div>
+	
+    <div style="margin:20px 0 10px 0;"></div>
+    <div class="easyui-tabs" style="width:700px;height:600px">
+        <div title="CA's link" style="padding:10px">
+            <p style="font-size:14px">work links.</p>
+            <ul>
+            <div id="mydiv1">
+			<p>
+			<a href="https://rally1.rallydev.com/#/42378966683/iterationstatus">Rally</a>
+			</p>
+			<p>
+			<a href="https://cawiki.ca.com/display/TSNOVA/Team+Snova+Home">Snova home</a>
+			</p>
+			<p>
+			<a href="https://docops.ca.com/ca-ppm/14-2/en">docops website</a>
+			</p>
+			</div>
+            </ul>
+        </div>
+        <div title="My Documents" style="padding:10px">
+            <div id="mydiv">
+		<p>
+				git command:<br />
+				git branch -D test<br />
+				git checkout -b test origin/test<br />
+				git push origin test;<br />
+				git push origin --delete branch_name<br />
+				git branch -d branch_name
+		</p>
+        </div>
+		</div>
+		<div title="Tools" style="padding:10px">
+		<div id="mydiv3">
+		<p>
+		<a href="http://www.w3school.com.cn/">Visit W3School</a><br />
+		<a href="http://www.jeasyui.com/demo/main/index.php?plugin=Tree&theme=default&dir=ltr&pitem=">EasyUI</a><br/>
+		<a href="https://git-scm.com/book/zh/">gitbook</a>
+		<a href="https://nodejs.org/en/">node.js</a>
+		<a href="https://www.python.org/">python</a>
+		</p>
+		</div>
+		</div>
+		<div title="CA others"  style="padding:10px">
+		<div id="mydiv4">
+		<a href="http://concur.ca.com">ca expense</a></br>
+		<a href="http://apjleave.ca.com/Employee/LeaveRequest.aspx">ca leaveRequest</a></br>
+		<a href="http://learn.ca.com/">ca learn</a></br>
+		<a href="http://learn.ca.com/">User scenarios</a></br>
+		</div>
+		</div>
+		
+        <div title="POCs"  style="padding:10px">
+            <div id="mydiv2">
+		<p>
+		jenkins
+		<a href="http://155.35.87.158:8080/login?from=%2F">Jenkins server for demo</a>
+		</p>
+		<p>
+		github
+			<a href="https://github-isl-01.ca.com/">github-isl</a>
+			<a href="https://github-isl-test-01.ca.com">github-isl-test</a>
+			</p>
+			<p>
+		Teamcity
+		<a href="http://genzh01lod1:8090/login.html">TeamCity</a>
+		</p>
+		<p>
+		Teamcity
+		<a href="http://genzh01lod1:8090/login.html">test</a>
+		</p>
+
+	    <p>
+		OnlineEditor
+		<a href="https://github-isl-01.ca.com/tools-ca-com/docops2-online-editor-poc">Online Editor on git</a>
+	   </p>
+	   </div>
+       </div>
+		
+		<div title="Search"  style="padding:10px">
+		<p>Click search button or press enter key in input box to do searching.</p>
+		
+		<form method="get" id="searchform" action="http://www.google.com.au/search">
+		<p><label for="searched_content">Search:</label></p>
+		<p><input type="radio" name="sitesearch" value="support.ca.com">support</p>
+		<p><input type="radio" name="sitesearch" value="www.ca.com">ca.com</p>
+		<p>
+		<input type="text" name="as_q" class="box" id="searched_content" title="Please Input Value。">
+		<input type="submit" value="Go" class="button" title="go！">
+		</p>
+		</form>
+		<input type="button" value="test URL" onclick="requestURL()" title="go！">
+		</div>
+		
+    </div>
+</body>
+</html>

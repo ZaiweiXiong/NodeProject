@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+    font-size: 0.95rem;
+}
+
+.panel {
+    border: 2px solid #067FB2;
+    background: #8EDDFF;
+    padding: 20px;
+    border-radius: 4px;
+}

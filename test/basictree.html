@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Master bill - Master bill Demo</title>
+	
+    <link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="easyui/demo.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/order.js"></script>
+	
+    <script type="text/javascript" src="easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+	
+	
+</head>
+<body>
+    <h2>Master bill</h2>
+    <p>Click tab strip to swap tab panel content.</p>
+    <div style="margin:20px 0 10px 0;"></div>
+	<form id="ff" method="post" action='/'>
+    <div class="easyui-tabs" style="width:900px;height:1000px">
+        <div title="Typing" style="padding:10px">
+            <p style="font-size:14px">单号录入</p>
+    
+			<div class="row">
+		<table border="1" style="width: 500px" class="col-lg-12">
+			<tr>
+				<td>航空公司<input id="airCompany" type="text"></input></td>
+				<td>主单来源 <input id="mainResource" type="text" name="mainR"></input></td>
+				<td>主单号<input id="mainOrderID" type="text"></input></td>
+				<td>录入日期<input id="inputDate" type="text" class="easyui-datebox" required="required" /></td>
+			</tr>
+		</table>
+		<div>
+			<button id="SubmitOne" class="btn btn-info">提交</button>
+			<button class="btn btn-info">打印</button>
+		</div>
+	</div>
+        </div>
+       <div title=" Master Bill " style="padding:10px">
+	
+	   <div style="margin-bottom:20px">
+	   <p>
+	   <input class="easyui-textbox" id="MasterID" style="width:30%" data-options="label:'主单号:',required:true"/>
+       </p>
+	   <input class="easyui-textbox" id="MAWBNO" style="width:30%" data-options="label:'MAWB NO:',required:true"/>
+	   <input class="easyui-textbox" id="MAWBNO_" style="width:30%" data-options="label:'',required:true"/>
+		主单日期
+	   <input id="mainOrderInputDate" type="text" class="easyui-datebox dataElemMark dataElemMarkDate" id="OrderDate" required="required"/>
+	    <p>
+	   <input class="easyui-textbox" id="OrderComp" style="width:30%" data-options="label:'主单公司*',required:true"/>
+	   <input class="easyui-textbox" id="OrderSubmitor" style="width:30%" data-options="label:'录入员*',required:true"/>
+		</p>
+		</div>
+		
+	   <div>...........
+	   <p>
+	   <input class="easyui-textbox" id="ShipperNameAndAddr" style="width:30%" data-options="label:'发货人名称及地址'"/>
+	   <input class="easyui-textbox" id="GoodsType"  style="width:30%" data-options="label:'货物类型*'"/>
+	   <input class="easyui-textbox" id="OtherCostVal"  style="width:30%" data-options="label:'其他费用金额*'"/>
+       </p>
+	   </div>
+	   
+	   <div>............
+	   <p>
+	   <input class="easyui-textbox" id="ReceiverNameAndAddr" style="width:30%" data-options="label:'收货人名称及地址*'"/>
+	   <input class="easyui-textbox" id="BorrowStatus" style="width:30%" data-options="label:'借单状态*'"/>
+	   <input class="easyui-textbox" id="OtherCostDetail" style="width:30%" data-options="label:'其他费用详情:*'"/>
+	   </p>
+	   </div>
+	   
+	   <div>.........
+	   <p>
+	   <input class="easyui-textbox" id="companyNmae" style="width:30%" data-options="label:'制单公司:'" value="金亚晟通"/>
+	   <input class="easyui-textbox" id="IATAID" style="width:30%" data-options="label:'IATA代码:'"/>
+	   </p>
+	   <p>
+	   <input class="easyui-textbox" id="Department" style="width:30%" data-options="label:'始发站:'"/>
+	   <input class="easyui-textbox" id="Destination" style="width:30%" data-options="label:'目的地:'"/>
+	   </p>
+	   </div>
+	   
+	   <div>
+	   <p>
+	  <input class="easyui-textbox" id="To" style="width:30%" data-options="label:'TO'"/>
+      &nbsp&nbsp
+	  <input class="easyui-textbox" id="by" style="width:30%" data-options="label:'By'"/>
+	  &nbsp&nbsp
+	  <input class="easyui-textbox" id="Account" style="width:30%" data-options="label:'板号:'"/>
+	   </p>
+	   </div>
+	   
+	   <div>
+	   <p>.............</p>
+	   <input class="easyui-textbox" id="airlines" style="width:30%" data-options="label:'航空公司:'"/>
+	   <input class="easyui-textbox" id="flightnumber" style="width:30%" data-options="label:'航班号:'"/>
+	  航班号日期:
+	    <input id="flightnumberDate" type="text" class="easyui-datebox dataElemMark dataElemMarkDate" id="OrderDate" required="required"/>
+	   </div>
+	   
+	   <div>
+	   <p>
+	     <select class="easyui-combobox" id="money" label="币值*:"  style="width:30%;">
+		<option value="AL">RMB</option>
+         <option value="AK">$Dollor</option>
+         <option value="AZ">EURO</option>
+      </select>
+	  预付到付:
+	   <input type="radio" name="lang" id="pp" value="pp" checked="checked"><span>pp</span>
+       <input type="radio" name="lang" id="cc" value="cc"><span>CC</span>
+	  
+	    </p>
+		
+		<p>
+	   <input  id="NVD" style="width:30%"  value="NVD"/>
+	   
+	   &nbsp&nbsp
+		<input  id="NVC" style="width:30%" value="NVC"/>
+		&nbsp&nbsp
+		<input id="NIL" style="width:30%"  value="NIL"/>
+		</p>
+		
+		<p>
+		主单状态:
+		<input id="masterbiilstatus" style="width:30%" data-options="label:'主单状态:'" value="unknown"/>
+	  </p>
+	  
+	  <p>
+	  <input class="easyui-textbox" id="StatisticStatus" style="width:30%" data-options="label:'统计状态:'" value=""/>
+	  </p>
+	   </div>
+	   
+	   <div>
+	   <p>.............</p>
+	   <input class="easyui-textbox" id="numberofmasterpieces" style="width:30%" data-options="label:'主单件数'" value=""/>
+	   <input type="radio"  id="kg" value="单位" ><span>KG</span>
+       &nbsp
+	   <input class="easyui-textbox" id="masterweight" style="width:30%" data-options="label:'主单毛重'" value=""/>
+	     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<select class="easyui-combobox" id="money" label="等级 靠级 商品代码*:"  style="width:30%;">
+		<option value="AL">M</option>
+         <option value="AK">N</option>
+         <option value="AZ">Q</option>
+      </select>
+	  <p>
+	   <input class="easyui-textbox" id="Billingweight" style="width:30%" data-options="label:'计费重'" value=""/>
+	    <input class="easyui-textbox" id="Mainsinglefreight" style="width:30%" data-options="label:'check主单运价'" value=""/>
+		 <input class="easyui-textbox" id="PureMainsinglefreight" style="width:30%" data-options="label:'主单纯运费'" value=""/>
+		 </p>
+		 <p>
+		 <input class="easyui-textbox" id="freight" style="width:30%" data-options="label:'check主单运费'" value=""/>
+	    </p>
+	   </div>
+	   
+	   
+	    <div>
+	   <p>.............</p>
+	   <input class="easyui-textbox" id="CONSOL" style="width:30%" data-options="label:'CONSOL'" value=""/>
+	     &nbsp&nbsp
+		<a href="javascript:void(0)" class="easyui-linkbutton"  style="width:60px" id="Size">尺寸</a>
+	     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	   <input  id="volume" style="width:30%" data-options="label:'体积 Handling Info:'" value="体积"/>
+	   <p>
+	    <select class="easyui-combobox" id="location" label="操作地点:"  style="width:30%;">
+		<option value="AL">BJS</option>
+        <option value="AK">CA</option>
+        
+      </select>
+	   </p>
+	   </div>
+	    </form>
+	   <div>
+       <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()"style="width:80px">Submit</a>
+       <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()" style="width:80px">Clear</a>
+	   <a href="javascript:void(0)" class="easyui-linkbutton"  style="width:80px" id="Modify">Modify</a>
+       <a href="javascript:void(0)" class="easyui-linkbutton"  style="width:80px" id="Print">Print</a>
+	   </div>
+	   
+	   <div id="modifyValue">
+	   
+	   </div>
+	   <div id="addSize">
+	   
+	   </div>
+	   
+		<p>
+		<li>test</li>
+		
+	    </p>
+		
+	 </div>
+		
+		<div title="Statistics" style="padding:10px">
+           <div style="margin-bottom:20px">
+			<div>Email:</div>
+			<input class="easyui-textbox" data-options="prompt:'Enter a email address...',validType:'email'" style="width:30%;height:32px">
+			<input  style="width:30%"  value="NVDinput"/>
+			<a href="javascript:void(0)" class="easyui-linkbutton"  style="width:80px" id="NVD1">NVD</a>
+		</div>
+        </div>
+        <div title="Help" data-options="iconCls:'icon-help',closable:true" style="padding:10px">
+            This is the help content.
+        </div>
+    </div>
+</body>
+</html>

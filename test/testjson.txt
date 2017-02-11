@@ -1,0 +1,4644 @@
+{
+  "d": {
+    "query": {
+      "__metadata": {
+        "type": "Microsoft.Office.Server.Search.REST.SearchResult"
+      },
+      "ElapsedTime": 1502,
+      "PrimaryQueryResult": {
+        "__metadata": {
+          "type": "Microsoft.Office.Server.Search.REST.QueryResult"
+        },
+        "CustomResults": {
+          "__metadata": {
+            "type": "Collection(Microsoft.Office.Server.Search.REST.CustomResult)"
+          },
+          "results": []
+        },
+        "QueryId": "97f805d6-a184-48ce-ac92-55b8f85cb0c9",
+        "QueryRuleId": "00000000-0000-0000-0000-000000000000",
+        "RefinementResults": {
+          "__metadata": {
+            "type": "Microsoft.Office.Server.Search.REST.RefinementResults"
+          },
+          "GroupTemplateId": null,
+          "ItemTemplateId": null,
+          "Properties": {
+            "results": [
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "ExecutionTimeMs",
+                "Value": "1217",
+                "ValueType": "Edm.Int32"
+              },
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "QueryModification",
+                "Value": "APM (((ContentSource=TechInfo) ((CAAccessLevel=0) OR (CAAccessLevel:{\\User.AccessLevel}) OR (VisibleToParnter={\\User.IsPartner}))) OR (ContentSource=ConfluenceContent)) (isdocument=1)",
+                "ValueType": "Edm.String"
+              },
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "RenderTemplateId",
+                "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js",
+                "ValueType": "Edm.String"
+              }
+            ]
+          },
+          "Refiners": {
+            "__metadata": {
+              "type": "Collection(Microsoft.Office.Server.Search.REST.Refiner)"
+            },
+            "results": [
+              {
+                "Entries": {
+                  "__metadata": {
+                    "type": "Collection(Microsoft.Office.Server.Search.REST.RefinerEntry)"
+                  },
+                  "results": [
+                    {
+                      "RefinementCount": "25651",
+                      "RefinementName": "CA IT Asset Manager",
+                      "RefinementToken": "\"ǂǂ4341204954204173736574204d616e61676572\"",
+                      "RefinementValue": "CA IT Asset Manager"
+                    },
+                    {
+                      "RefinementCount": "25071",
+                      "RefinementName": "CA ARGIS",
+                      "RefinementToken": "\"ǂǂ4341204152474953\"",
+                      "RefinementValue": "CA ARGIS"
+                    },
+                    {
+                      "RefinementCount": "25071",
+                      "RefinementName": "CA Asset Portfolio Management",
+                      "RefinementToken": "\"ǂǂ434120417373657420506f7274666f6c696f204d616e6167656d656e74\"",
+                      "RefinementValue": "CA Asset Portfolio Management"
+                    },
+                    {
+                      "RefinementCount": "19898",
+                      "RefinementName": "CA Application Performance Management",
+                      "RefinementToken": "\"ǂǂ4341204170706c69636174696f6e20506572666f726d616e6365204d616e6167656d656e74\"",
+                      "RefinementValue": "CA Application Performance Management"
+                    },
+                    {
+                      "RefinementCount": "1886",
+                      "RefinementName": "CA Service Catalog",
+                      "RefinementToken": "\"ǂǂ4341205365727669636520436174616c6f67\"",
+                      "RefinementValue": "CA Service Catalog"
+                    },
+                    {
+                      "RefinementCount": "1826",
+                      "RefinementName": "CA Service Management",
+                      "RefinementToken": "\"ǂǂ43412053657276696365204d616e6167656d656e74\"",
+                      "RefinementValue": "CA Service Management"
+                    },
+                    {
+                      "RefinementCount": "1008",
+                      "RefinementName": "CA Service Desk Manager",
+                      "RefinementToken": "\"ǂǂ43412053657276696365204465736b204d616e61676572\"",
+                      "RefinementValue": "CA Service Desk Manager"
+                    },
+                    {
+                      "RefinementCount": "981",
+                      "RefinementName": "CA ARCserve Backup",
+                      "RefinementToken": "\"ǂǂ4341204152437365727665204261636b7570\"",
+                      "RefinementValue": "CA ARCserve Backup"
+                    },
+                    {
+                      "RefinementCount": "848",
+                      "RefinementName": "CA Service Desk",
+                      "RefinementToken": "\"ǂǂ43412053657276696365204465736b\"",
+                      "RefinementValue": "CA Service Desk"
+                    },
+                    {
+                      "RefinementCount": "672",
+                      "RefinementName": "CA PPM",
+                      "RefinementToken": "\"ǂǂ43412050504d\"",
+                      "RefinementValue": "CA PPM"
+                    },
+                    {
+                      "RefinementCount": "265",
+                      "RefinementName": "CA Cross Enterprise Application Performance Management",
+                      "RefinementToken": "\"ǂǂ43412043726f737320456e7465727072697365204170706c69636174696f6e20506572666f726d616e6365204d616e6167656d656e74\"",
+                      "RefinementValue": "CA Cross Enterprise Application Performance Management"
+                    },
+                    {
+                      "RefinementCount": "213",
+                      "RefinementName": "CA Client Automation",
+                      "RefinementToken": "\"ǂǂ434120436c69656e74204175746f6d6174696f6e\"",
+                      "RefinementValue": "CA Client Automation"
+                    },
+                    {
+                      "RefinementCount": "213",
+                      "RefinementName": "CA SYSView Performance Management",
+                      "RefinementToken": "\"ǂǂ4341205359535669657720506572666f726d616e6365204d616e6167656d656e74\"",
+                      "RefinementValue": "CA SYSView Performance Management"
+                    },
+                    {
+                      "RefinementCount": "205",
+                      "RefinementName": "CA IT Client Manager",
+                      "RefinementToken": "\"ǂǂ434120495420436c69656e74204d616e61676572\"",
+                      "RefinementValue": "CA IT Client Manager"
+                    },
+                    {
+                      "RefinementCount": "173",
+                      "RefinementName": "CA NetMaster Network Management for TCP/IP",
+                      "RefinementToken": "\"ǂǂ4341204e65744d6173746572204e6574776f726b204d616e6167656d656e7420666f72205443502f4950\"",
+                      "RefinementValue": "CA NetMaster Network Management for TCP/IP"
+                    },
+                    {
+                      "RefinementCount": "108",
+                      "RefinementName": "CA Executive Insight for Service Assurance",
+                      "RefinementToken": "\"ǂǂ43412045786563757469766520496e736967687420666f722053657276696365204173737572616e6365\"",
+                      "RefinementValue": "CA Executive Insight for Service Assurance"
+                    },
+                    {
+                      "RefinementCount": "80",
+                      "RefinementName": "CA Desktop Migration Manager",
+                      "RefinementToken": "\"ǂǂ4341204465736b746f70204d6967726174696f6e204d616e61676572\"",
+                      "RefinementValue": "CA Desktop Migration Manager"
+                    },
+                    {
+                      "RefinementCount": "66",
+                      "RefinementName": "CA Performance Management",
+                      "RefinementToken": "\"ǂǂ434120506572666f726d616e6365204d616e6167656d656e74\"",
+                      "RefinementValue": "CA Performance Management"
+                    },
+                    {
+                      "RefinementCount": "49",
+                      "RefinementName": "CA Spectrum",
+                      "RefinementToken": "\"ǂǂ434120537065637472756d\"",
+                      "RefinementValue": "CA Spectrum"
+                    },
+                    {
+                      "RefinementCount": "48",
+                      "RefinementName": "CA Data Protection",
+                      "RefinementToken": "\"ǂǂ434120446174612050726f74656374696f6e\"",
+                      "RefinementValue": "CA Data Protection"
+                    },
+                    {
+                      "RefinementCount": "46",
+                      "RefinementName": "CA Service Operations Insight",
+                      "RefinementToken": "\"ǂǂ43412053657276696365204f7065726174696f6e7320496e7369676874\"",
+                      "RefinementValue": "CA Service Operations Insight"
+                    },
+                    {
+                      "RefinementCount": "33",
+                      "RefinementName": "CA Application Delivery Analysis Multi-Port Monitor",
+                      "RefinementToken": "\"ǂǂ4341204170706c69636174696f6e2044656c697665727920416e616c79736973204d756c74692d506f7274204d6f6e69746f72\"",
+                      "RefinementValue": "CA Application Delivery Analysis Multi-Port Monitor"
+                    },
+                    {
+                      "RefinementCount": "29",
+                      "RefinementName": "CA Application Test",
+                      "RefinementToken": "\"ǂǂ4341204170706c69636174696f6e2054657374\"",
+                      "RefinementValue": "CA Application Test"
+                    },
+                    {
+                      "RefinementCount": "29",
+                      "RefinementName": "CA Mainframe Application Tuner",
+                      "RefinementToken": "\"ǂǂ4341204d61696e6672616d65204170706c69636174696f6e2054756e6572\"",
+                      "RefinementValue": "CA Mainframe Application Tuner"
+                    },
+                    {
+                      "RefinementCount": "29",
+                      "RefinementName": "CA Service Virtualization",
+                      "RefinementToken": "\"ǂǂ43412053657276696365205669727475616c697a6174696f6e\"",
+                      "RefinementValue": "CA Service Virtualization"
+                    },
+                    {
+                      "RefinementCount": "29",
+                      "RefinementName": "CA Continuous Application Insight",
+                      "RefinementToken": "\"ǂǂ434120436f6e74696e756f7573204170706c69636174696f6e20496e7369676874\"",
+                      "RefinementValue": "CA Continuous Application Insight"
+                    },
+                    {
+                      "RefinementCount": "21",
+                      "RefinementName": "CA Application Delivery Analysis",
+                      "RefinementToken": "\"ǂǂ4341204170706c69636174696f6e2044656c697665727920416e616c79736973\"",
+                      "RefinementValue": "CA Application Delivery Analysis"
+                    },
+                    {
+                      "RefinementCount": "19",
+                      "RefinementName": "CA Database Management Solutions for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ4341204461746162617365204d616e6167656d656e7420536f6c7574696f6e7320666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Database Management Solutions for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "18",
+                      "RefinementName": "CA Performance Center",
+                      "RefinementToken": "\"ǂǂ434120506572666f726d616e63652043656e746572\"",
+                      "RefinementValue": "CA Performance Center"
+                    },
+                    {
+                      "RefinementCount": "17",
+                      "RefinementName": "CA NetMaster Network Management for SNA",
+                      "RefinementToken": "\"ǂǂ4341204e65744d6173746572204e6574776f726b204d616e6167656d656e7420666f7220534e41\"",
+                      "RefinementValue": "CA NetMaster Network Management for SNA"
+                    },
+                    {
+                      "RefinementCount": "16",
+                      "RefinementName": "CA NetMaster File Transfer Management",
+                      "RefinementToken": "\"ǂǂ4341204e65744d61737465722046696c65205472616e73666572204d616e6167656d656e74\"",
+                      "RefinementValue": "CA NetMaster File Transfer Management"
+                    },
+                    {
+                      "RefinementCount": "16",
+                      "RefinementName": "CA NetMaster Network Automation",
+                      "RefinementToken": "\"ǂǂ4341204e65744d6173746572204e6574776f726b204175746f6d6174696f6e\"",
+                      "RefinementValue": "CA NetMaster Network Automation"
+                    },
+                    {
+                      "RefinementCount": "16",
+                      "RefinementName": "CA SOLVE:FTS",
+                      "RefinementToken": "\"ǂǂ434120534f4c56453a465453\"",
+                      "RefinementValue": "CA SOLVE:FTS"
+                    },
+                    {
+                      "RefinementCount": "15",
+                      "RefinementName": "CA Application Performance Management - Deployment Services",
+                      "RefinementToken": "\"ǂǂ4341204170706c69636174696f6e20506572666f726d616e6365204d616e6167656d656e74202d204465706c6f796d656e74205365727669636573\"",
+                      "RefinementValue": "CA Application Performance Management - Deployment Services"
+                    },
+                    {
+                      "RefinementCount": "12",
+                      "RefinementName": "CA PanAPT JCLCheck Developer Edition",
+                      "RefinementToken": "\"ǂǂ43412050616e415054204a434c436865636b20446576656c6f7065722045646974696f6e\"",
+                      "RefinementValue": "CA PanAPT JCLCheck Developer Edition"
+                    },
+                    {
+                      "RefinementCount": "12",
+                      "RefinementName": "CA PanAPT Option for DB2",
+                      "RefinementToken": "\"ǂǂ43412050616e415054204f7074696f6e20666f7220444232\"",
+                      "RefinementValue": "CA PanAPT Option for DB2"
+                    },
+                    {
+                      "RefinementCount": "12",
+                      "RefinementName": "CA PanAPT",
+                      "RefinementToken": "\"ǂǂ43412050616e415054\"",
+                      "RefinementValue": "CA PanAPT"
+                    },
+                    {
+                      "RefinementCount": "9",
+                      "RefinementName": "CA Mobile App Analytics",
+                      "RefinementToken": "\"ǂǂ4341204d6f62696c652041707020416e616c7974696373\"",
+                      "RefinementValue": "CA Mobile App Analytics"
+                    },
+                    {
+                      "RefinementCount": "9",
+                      "RefinementName": "CA JARS Resource Management",
+                      "RefinementToken": "\"ǂǂ4341204a415253205265736f75726365204d616e6167656d656e74\"",
+                      "RefinementValue": "CA JARS Resource Management"
+                    },
+                    {
+                      "RefinementCount": "8",
+                      "RefinementName": "CA Deliver",
+                      "RefinementToken": "\"ǂǂ43412044656c69766572\"",
+                      "RefinementValue": "CA Deliver"
+                    },
+                    {
+                      "RefinementCount": "8",
+                      "RefinementName": "CA Automation Point",
+                      "RefinementToken": "\"ǂǂ4341204175746f6d6174696f6e20506f696e74\"",
+                      "RefinementValue": "CA Automation Point"
+                    },
+                    {
+                      "RefinementCount": "8",
+                      "RefinementName": "CA CMDB",
+                      "RefinementToken": "\"ǂǂ434120434d4442\"",
+                      "RefinementValue": "CA CMDB"
+                    },
+                    {
+                      "RefinementCount": "7",
+                      "RefinementName": "CA Deliver for z/VSE",
+                      "RefinementToken": "\"ǂǂ43412044656c6976657220666f72207a2f565345\"",
+                      "RefinementValue": "CA Deliver for z/VSE"
+                    },
+                    {
+                      "RefinementCount": "6",
+                      "RefinementName": "CA ACF2 for z/OS",
+                      "RefinementToken": "\"ǂǂ4341204143463220666f72207a2f4f53\"",
+                      "RefinementValue": "CA ACF2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "6",
+                      "RefinementName": "CA Privileged Identity Manager",
+                      "RefinementToken": "\"ǂǂ43412050726976696c65676564204964656e74697479204d616e61676572\"",
+                      "RefinementValue": "CA Privileged Identity Manager"
+                    },
+                    {
+                      "RefinementCount": "6",
+                      "RefinementName": "CA View",
+                      "RefinementToken": "\"ǂǂ43412056696577\"",
+                      "RefinementValue": "CA View"
+                    },
+                    {
+                      "RefinementCount": "6",
+                      "RefinementName": "CA FAQS Automated Systems Operation for z/VSE",
+                      "RefinementToken": "\"ǂǂ43412046415153204175746f6d617465642053797374656d73204f7065726174696f6e20666f72207a2f565345\"",
+                      "RefinementValue": "CA FAQS Automated Systems Operation for z/VSE"
+                    },
+                    {
+                      "RefinementCount": "4",
+                      "RefinementName": "CA Network Flow Analysis",
+                      "RefinementToken": "\"ǂǂ4341204e6574776f726b20466c6f7720416e616c79736973\"",
+                      "RefinementValue": "CA Network Flow Analysis"
+                    },
+                    {
+                      "RefinementCount": "4",
+                      "RefinementName": "CA NetQoS Trade Monitor",
+                      "RefinementToken": "\"ǂǂ4341204e6574516f53205472616465204d6f6e69746f72\"",
+                      "RefinementValue": "CA NetQoS Trade Monitor"
+                    },
+                    {
+                      "RefinementCount": "4",
+                      "RefinementName": "CA GigaStor",
+                      "RefinementToken": "\"ǂǂ4341204769676153746f72\"",
+                      "RefinementValue": "CA GigaStor"
+                    },
+                    {
+                      "RefinementCount": "4",
+                      "RefinementName": "CA Introscope",
+                      "RefinementToken": "\"ǂǂ434120496e74726f73636f7065\"",
+                      "RefinementValue": "CA Introscope"
+                    },
+                    {
+                      "RefinementCount": "4",
+                      "RefinementName": "Unicenter Application Performance Monitor",
+                      "RefinementToken": "\"ǂǂ556e6963656e746572204170706c69636174696f6e20506572666f726d616e6365204d6f6e69746f72\"",
+                      "RefinementValue": "Unicenter Application Performance Monitor"
+                    },
+                    {
+                      "RefinementCount": "4",
+                      "RefinementName": "CA Unified Communications Monitor",
+                      "RefinementToken": "\"ǂǂ434120556e696669656420436f6d6d756e69636174696f6e73204d6f6e69746f72\"",
+                      "RefinementValue": "CA Unified Communications Monitor"
+                    },
+                    {
+                      "RefinementCount": "4",
+                      "RefinementName": "NetVoyant",
+                      "RefinementToken": "\"ǂǂ4e6574566f79616e74\"",
+                      "RefinementValue": "NetVoyant"
+                    },
+                    {
+                      "RefinementCount": "3",
+                      "RefinementName": "CA Desktop Management Suite",
+                      "RefinementToken": "\"ǂǂ4341204465736b746f70204d616e6167656d656e74205375697465\"",
+                      "RefinementValue": "CA Desktop Management Suite"
+                    },
+                    {
+                      "RefinementCount": "3",
+                      "RefinementName": "CA App Synthetic Monitor",
+                      "RefinementToken": "\"ǂǂ4341204170702053796e746865746963204d6f6e69746f72\"",
+                      "RefinementValue": "CA App Synthetic Monitor"
+                    },
+                    {
+                      "RefinementCount": "3",
+                      "RefinementName": "CA Introscope to CA Application Performance Management Upgrade",
+                      "RefinementToken": "\"ǂǂ434120496e74726f73636f706520746f204341204170706c69636174696f6e20506572666f726d616e6365204d616e6167656d656e742055706772616465\"",
+                      "RefinementValue": "CA Introscope to CA Application Performance Management Upgrade"
+                    },
+                    {
+                      "RefinementCount": "3",
+                      "RefinementName": "CA VISION:Excel for CMS",
+                      "RefinementToken": "\"ǂǂ434120564953494f4e3a457863656c20666f7220434d53\"",
+                      "RefinementValue": "CA VISION:Excel for CMS"
+                    },
+                    {
+                      "RefinementCount": "3",
+                      "RefinementName": "CA VISION:Excel for VSE",
+                      "RefinementToken": "\"ǂǂ434120564953494f4e3a457863656c20666f7220565345\"",
+                      "RefinementValue": "CA VISION:Excel for VSE"
+                    },
+                    {
+                      "RefinementCount": "3",
+                      "RefinementName": "CA VISION:Excel for z/OS",
+                      "RefinementToken": "\"ǂǂ434120564953494f4e3a457863656c20666f72207a2f4f53\"",
+                      "RefinementValue": "CA VISION:Excel for z/OS"
+                    },
+                    {
+                      "RefinementCount": "3",
+                      "RefinementName": "CA Remote Control",
+                      "RefinementToken": "\"ǂǂ43412052656d6f746520436f6e74726f6c\"",
+                      "RefinementValue": "CA Remote Control"
+                    },
+                    {
+                      "RefinementCount": "2",
+                      "RefinementName": "CA Infrastructure Performance",
+                      "RefinementToken": "\"ǂǂ434120496e66726173747275637475726520506572666f726d616e6365\"",
+                      "RefinementValue": "CA Infrastructure Performance"
+                    },
+                    {
+                      "RefinementCount": "2",
+                      "RefinementName": "CA Infrastructure Management Data Aggregator",
+                      "RefinementToken": "\"ǂǂ434120496e667261737472756374757265204d616e6167656d656e7420446174612041676772656761746f72\"",
+                      "RefinementValue": "CA Infrastructure Management Data Aggregator"
+                    },
+                    {
+                      "RefinementCount": "2",
+                      "RefinementName": "CA Data Aggregator",
+                      "RefinementToken": "\"ǂǂ434120446174612041676772656761746f72\"",
+                      "RefinementValue": "CA Data Aggregator"
+                    },
+                    {
+                      "RefinementCount": "2",
+                      "RefinementName": "CA Software Compliance Manager",
+                      "RefinementToken": "\"ǂǂ434120536f66747761726520436f6d706c69616e6365204d616e61676572\"",
+                      "RefinementValue": "CA Software Compliance Manager"
+                    },
+                    {
+                      "RefinementCount": "2",
+                      "RefinementName": "CA Asset Management",
+                      "RefinementToken": "\"ǂǂ4341204173736574204d616e6167656d656e74\"",
+                      "RefinementValue": "CA Asset Management"
+                    },
+                    {
+                      "RefinementCount": "2",
+                      "RefinementName": "CA Software Delivery",
+                      "RefinementToken": "\"ǂǂ434120536f6674776172652044656c6976657279\"",
+                      "RefinementValue": "CA Software Delivery"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom DL1 Transparency",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d20444c31205472616e73706172656e6379\"",
+                      "RefinementValue": "CA Datacom DL1 Transparency"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom Datadictionary",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d204461746164696374696f6e617279\"",
+                      "RefinementValue": "CA Datacom Datadictionary"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom Fast Restore",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d204661737420526573746f7265\"",
+                      "RefinementValue": "CA Datacom Fast Restore"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom Guest Machine Share",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d204775657374204d616368696e65205368617265\"",
+                      "RefinementValue": "CA Datacom Guest Machine Share"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom IMS/DC Services",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d20494d532f4443205365727669636573\"",
+                      "RefinementValue": "CA Datacom IMS/DC Services"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom Presspack",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d2050726573737061636b\"",
+                      "RefinementValue": "CA Datacom Presspack"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom Resource Analyzer",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d205265736f7572636520416e616c797a6572\"",
+                      "RefinementValue": "CA Datacom Resource Analyzer"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom SQL",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d2053514c\"",
+                      "RefinementValue": "CA Datacom SQL"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom STAR",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d2053544152\"",
+                      "RefinementValue": "CA Datacom STAR"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom Server",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d20536572766572\"",
+                      "RefinementValue": "CA Datacom Server"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom TOTAL Transparency",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d20544f54414c205472616e73706172656e6379\"",
+                      "RefinementValue": "CA Datacom TOTAL Transparency"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom VSAM Transparency",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d205653414d205472616e73706172656e6379\"",
+                      "RefinementValue": "CA Datacom VSAM Transparency"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom/AD",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d2f4144\"",
+                      "RefinementValue": "CA Datacom/AD"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Datacom/DB",
+                      "RefinementToken": "\"ǂǂ43412044617461636f6d2f4442\"",
+                      "RefinementValue": "CA Datacom/DB"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Dataquery for CA Datacom",
+                      "RefinementToken": "\"ǂǂ43412044617461717565727920666f722043412044617461636f6d\"",
+                      "RefinementValue": "CA Dataquery for CA Datacom"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Detector for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ4341204465746563746f7220666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Detector for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Disk Backup and Restore",
+                      "RefinementToken": "\"ǂǂ4341204469736b204261636b757020616e6420526573746f7265\"",
+                      "RefinementValue": "CA Disk Backup and Restore"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Dispatch",
+                      "RefinementToken": "\"ǂǂ4341204469737061746368\"",
+                      "RefinementValue": "CA Dispatch"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Endevor Software Change Manager",
+                      "RefinementToken": "\"ǂǂ434120456e6465766f7220536f667477617265204368616e6765204d616e61676572\"",
+                      "RefinementValue": "CA Endevor Software Change Manager"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Endevor Software Change Manager Interface for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ434120456e6465766f7220536f667477617265204368616e6765204d616e6167657220496e7465726661636520666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Endevor Software Change Manager Interface for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Fast Check for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ4341204661737420436865636b20666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Fast Check for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Fast Index for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ4341204661737420496e64657820666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Fast Index for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Fast Load for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ43412046617374204c6f616420666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Fast Load for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Fast Recover for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ43412046617374205265636f76657220666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Fast Recover for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Fast Unload for DB2 for z/OS",
+                      "RefinementToken": "\"ǂǂ4341204661737420556e6c6f616420666f722044423220666f72207a2f4f53\"",
+                      "RefinementValue": "CA Fast Unload for DB2 for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA File Master Plus",
+                      "RefinementToken": "\"ǂǂ43412046696c65204d617374657220506c7573\"",
+                      "RefinementValue": "CA File Master Plus"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA File Master Plus for IMS",
+                      "RefinementToken": "\"ǂǂ43412046696c65204d617374657220506c757320666f7220494d53\"",
+                      "RefinementValue": "CA File Master Plus for IMS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA GMI Web-based User Interface",
+                      "RefinementToken": "\"ǂǂ434120474d49205765622d6261736564205573657220496e74657266616365\"",
+                      "RefinementValue": "CA GMI Web-based User Interface"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA Gen",
+                      "RefinementToken": "\"ǂǂ43412047656e\"",
+                      "RefinementValue": "CA Gen"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA High Performance Recovery for IMS for z/OS",
+                      "RefinementToken": "\"ǂǂ4341204869676820506572666f726d616e6365205265636f7665727920666f7220494d5320666f72207a2f4f53\"",
+                      "RefinementValue": "CA High Performance Recovery for IMS for z/OS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA IDMS",
+                      "RefinementToken": "\"ǂǂ43412049444d53\"",
+                      "RefinementValue": "CA IDMS"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA IDMS Server",
+                      "RefinementToken": "\"ǂǂ43412049444d5320536572766572\"",
+                      "RefinementValue": "CA IDMS Server"
+                    },
+                    {
+                      "RefinementCount": "1",
+                      "RefinementName": "CA IDMS Visual DBA",
+                      "RefinementToken": "\"ǂǂ43412049444d532056697375616c20444241\"",
+                      "RefinementValue": "CA IDMS Visual DBA"
+                    }
+                  ]
+                },
+                "Name": "products"
+              }
+            ]
+          },
+          "ResultTitle": null,
+          "ResultTitleUrl": null
+        },
+        "RelevantResults": {
+          "__metadata": {
+            "type": "Microsoft.Office.Server.Search.REST.RelevantResults"
+          },
+          "GroupTemplateId": null,
+          "ItemTemplateId": null,
+          "Properties": {
+            "results": [
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "GenerationId",
+                "Value": "9223372036854775806",
+                "ValueType": "Edm.Int64"
+              },
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "ExecutionTimeMs",
+                "Value": "1217",
+                "ValueType": "Edm.Int32"
+              },
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "QueryModification",
+                "Value": "APM (((ContentSource=TechInfo) ((CAAccessLevel=0) OR (CAAccessLevel:{\\User.AccessLevel}) OR (VisibleToParnter={\\User.IsPartner}))) OR (ContentSource=ConfluenceContent)) (isdocument=1)",
+                "ValueType": "Edm.String"
+              },
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "RenderTemplateId",
+                "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js",
+                "ValueType": "Edm.String"
+              },
+              {
+                "__metadata": {
+                  "type": "SP.KeyValue"
+                },
+                "Key": "piPageImpressionBlockType",
+                "Value": "2",
+                "ValueType": "Edm.Byte"
+              }
+            ]
+          },
+          "ResultTitle": null,
+          "ResultTitleUrl": null,
+          "RowCount": 10,
+          "Table": {
+            "__metadata": {
+              "type": "SP.SimpleDataTable"
+            },
+            "Rows": {
+              "results": [
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "79647",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "79647",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "CA Clarity PPM Connector for CA Unicenter Asset Portfolio Management Product Guide - On Demand",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "408820",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_0/CAClarityPPM_OD_UAPMConnector_ProductGuide_ENU.pdf",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2016-07-20T13:56:56.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "Up and Installing the CA Unicenter <c0>Asset</c0> <c0>Portfolio</c0> <c0>Management</c0> (<c0>APM</c0>) Connector  9   Chapter 2: Setting Up and Installing the CA Unicenter <c0>Asset</c0> <c0>Portfolio</c0> <c0>Management</c0> (<c0>APM</c0>) Connector <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "pdf",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B0005FA1315E2C015D41B4786E50083C2BED",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2016-07-20T13:56:56.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "pdf",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "pdf",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_0/CAClarityPPM_OD_UAPMConnector_ProductGuide_ENU.pdf",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "15",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "15",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_PDF.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "0_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "80038",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "80038",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Connector for CA Unicenter Asset Portfolio Management Product Guide - On Demand Service Pack 02.0.01 - Field Mappings",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "19920",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20/1818097.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": "Describes how CA Unicenter Asset Portfolio Management fields are mapped and saved as fields in CA Clarity PPM when you import an asset.",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2014-04-07T23:30:30.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "When you import an asset from Unicenter <c0>APM</c0> into CA Clarity PPM, the following Unicenter <c0>APM</c0> fields are mapped and saved as fields in <ddd/> Unicenter <c0>APM</c0> Field <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B0005FA1315E2C015D41B4786E50083C2BED",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2014-04-07T23:30:30.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20/1818097.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "1_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "80040",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "80040",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Connector for CA Unicenter Asset Portfolio Management Product Guide - On Demand Service Pack 02.0.01 - CA Unicenter Asset Portfolio Management (APM) Connector",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "17686",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20/apm_connector_overview.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": "Describes an overview and the benefits of the Connector for CA Unicenter Asset Portfolio Management.",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2014-04-07T23:30:30.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "About the CA Clarity PPM Connector for CA Unicenter <c0>APM</c0> <ddd/> CA Technologies Unicenter® <c0>Asset</c0> <c0>Portfolio</c0> <c0>Management</c0> (Unicenter <c0>APM</c0>) reduces costs and increases efficiency by <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B0005FA1315E2C015D41B4786E50083C2BED",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2014-04-07T23:30:30.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20/apm_connector_overview.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "2_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "80043",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "80043",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Connector for CA Unicenter Asset Portfolio Management Product Guide - On Demand Service Pack 02.0.01 - Importing Asset Data from CA Unicenter Asset Portfolio Management (APM) into CA Clarity PPM",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "27094",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20/importing_asset_data_from_apm_into_clarity.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": "Describes how to import asset data into CA Clarity PPM using the Connector for CA Unicenter Asset Portfolio Management.",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2014-04-07T23:30:30.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "1",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "When you update a CA Technologies Unicenter <c0>APM</c0> cost record, they are imported into CA Clarity PPM on the next run of the Import Unicenter <c0>APM</c0> Assets process <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B0005FA1315E2C015D41B4786E50083C2BED",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2014-04-07T23:30:30.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/fr-fr/Documents/Guides/2773_20/importing_asset_data_from_apm_into_clarity.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "3_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "115737",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "115737",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Integration Guide Release 12.6 - Configure CA APM",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "12441",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/ConfigureCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2012-07-18T16:50:25.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "1",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "To enable the integration between CA <c0>APM</c0> and CA Service Catalog, you must configure CA <c0>APM</c0> specifically for use with this integration <ddd/> Start the CA <c0>APM</c0> Configurator and open CA <c0>APM</c0> <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B000CEB5005027644D4E98259B2C97B4ACDF",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2012-07-18T16:50:25.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/ConfigureCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "4_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "115820",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "115820",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Integration Guide Release 12.6 - How to Integrate with CA APM",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "13012",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/HowtoIntegratewithCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2012-07-18T16:50:25.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "CA <c0>APM</c0> and CA Service Catalog must share the same MDB and the same CA EEM for this <ddd/> See the CA Service Catalog and CA <c0>APM</c0> Release Notes files for any last-minute information <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B000CEB5005027644D4E98259B2C97B4ACDF",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2012-07-18T16:50:25.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/HowtoIntegratewithCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "5_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "115851",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "115851",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Integration Guide Release 12.6 - Integrating with CA APM",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "10845",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/IntegratingwithCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2012-07-18T16:50:26.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "This chapter explains how to integrate CA Service Catalog with CA <c0>APM</c0> r11.3.4 <ddd/> This section contains the following topics <ddd/> Associate a CA <c0>APM</c0> Model with a Service Option <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B000CEB5005027644D4E98259B2C97B4ACDF",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2012-07-18T16:50:26.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/IntegratingwithCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "6_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "115895",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "115895",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Integration Guide Release 12.6 - Associate a CA APM Model with a Service Option",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "13242",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/ortfolioManager(CAAPM)ModelwithaServiceOption.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2012-07-18T16:50:24.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "option group that contains the service option for which you want to manage CA <c0>APM</c0> models <ddd/> search for both active and inactive CA <c0>APM</c0> models that match the criteria you enter and <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B000CEB5005027644D4E98259B2C97B4ACDF",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2012-07-18T16:50:24.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/ortfolioManager(CAAPM)ModelwithaServiceOption.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "7_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "115934",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "115934",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Integration Guide Release 12.6 - Errors for integration with CA APM",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "17040",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/s_integration_with_ca_asset_portfolio_manager.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2012-07-18T16:50:25.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "1",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "I am unable to integrate CA Service Catalog with CA <c0>APM</c0> <ddd/> When trying to access CA <c0>APM</c0>, I receive a pop-up message saying &quot;please wait&quot; and CA <c0>APM</c0> opens very slowy or not at all <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B000CEB5005027644D4E98259B2C97B4ACDF",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2012-07-18T16:50:25.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/es-es/Documents/Guides/498_5/s_integration_with_ca_asset_portfolio_manager.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "8_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__metadata": {
+                    "type": "SP.SimpleDataRow"
+                  },
+                  "Cells": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Rank",
+                        "Value": "13.6445302963257",
+                        "ValueType": "Edm.Double"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DocId",
+                        "Value": "141977",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WorkId",
+                        "Value": "141977",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Title",
+                        "Value": "Integration Guide Release 12.7.00 - Integrating with CA APM",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Author",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Size",
+                        "Value": "11356",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Path",
+                        "Value": "http://ecmstage.ca.com/pt-br/Documents/Guides/1242_5/IntegratingwithCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Description",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "Write",
+                        "Value": "2012-07-18T16:36:52.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "CollapsingStatus",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedSummary",
+                        "Value": "This chapter explains how to integrate CA Service Catalog with CA <c0>APM</c0> r11.3.4 <ddd/> This section contains the following topics <ddd/> Associate a CA <c0>APM</c0> Model with a Service Option <ddd/> ",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "HitHighlightedProperties",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "contentclass",
+                        "Value": "STS_ListItem_DocumentLibrary",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PictureThumbnailURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedEmbedURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ServerRedirectedPreviewURL",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ContentTypeId",
+                        "Value": "0x010100A87F113A107340148D1B7CC6268B0D6B0065D08664A09A11E3B3EB63981D5D46B000877653ABFE69124EAEFF35C02D89062F",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ParentLink",
+                        "Value": "http://ecmstage.ca.com/pt-br/Documents/Guides/1242_5",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsLifeTime",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ViewsRecent",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionNames",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SectionIndexes",
+                        "Value": "",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteLogo",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteDescription",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "deeplinks",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "importance",
+                        "Value": "0",
+                        "ValueType": "Edm.Int64"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SiteName",
+                        "Value": "http://ecmstage.ca.com",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsDocument",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "LastModifiedTime",
+                        "Value": "2012-07-18T16:36:52.0000000Z",
+                        "ValueType": "Edm.DateTime"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "FileType",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "IsContainer",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "WebTemplate",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "SecondaryFileExtension",
+                        "Value": "html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "docaclmeta",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "OriginalPath",
+                        "Value": "http://ecmstage.ca.com/pt-br/Documents/Guides/1242_5/IntegratingwithCAAPM.html",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "EditorOWSUSER",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "DisplayAuthor",
+                        "Value": null,
+                        "ValueType": "Null"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeIdList",
+                        "Value": "0",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "PartitionId",
+                        "Value": "0c37852b-34d0-418e-91c6-2ac25af4be5b",
+                        "ValueType": "Edm.Guid"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "UrlZone",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "AAMEnabledManagedProperties",
+                        "Value": "AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ResultTypeId",
+                        "Value": "0",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "piSearchResultId",
+                        "Value": "9_1",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "TotalRows": 56584,
+          "TotalRowsIncludingDuplicates": 61967
+        },
+        "SpecialTermResults": null
+      },
+      "Properties": {
+        "results": [
+          {
+            "__metadata": {
+              "type": "SP.KeyValue"
+            },
+            "Key": "RowLimit",
+            "Value": "10",
+            "ValueType": "Edm.Int32"
+          },
+          {
+            "__metadata": {
+              "type": "SP.KeyValue"
+            },
+            "Key": "SourceId",
+            "Value": "835d7d71-c7fd-4a0d-aa82-d6aa489a0985",
+            "ValueType": "Edm.Guid"
+          },
+          {
+            "__metadata": {
+              "type": "SP.KeyValue"
+            },
+            "Key": "WasGroupRestricted",
+            "Value": "false",
+            "ValueType": "Edm.Boolean"
+          },
+          {
+            "__metadata": {
+              "type": "SP.KeyValue"
+            },
+            "Key": "IsPartial",
+            "Value": "false",
+            "ValueType": "Edm.Boolean"
+          },
+          {
+            "__metadata": {
+              "type": "SP.KeyValue"
+            },
+            "Key": "piPageImpression",
+            "Value": "7690185_2414_1033",
+            "ValueType": "Edm.String"
+          },
+          {
+            "__metadata": {
+              "type": "SP.KeyValue"
+            },
+            "Key": "IsCached",
+            "Value": "true",
+            "ValueType": "Edm.Boolean"
+          },
+          {
+            "__metadata": {
+              "type": "SP.KeyValue"
+            },
+            "Key": "SerializedQuery",
+            "Value": "<Query Culture=\"en-US\" EnableStemming=\"True\" EnablePhonetic=\"False\" EnableNicknames=\"False\" IgnoreAllNoiseQuery=\"True\" SummaryLength=\"180\" MaxSnippetLength=\"180\" DesiredSnippetLength=\"90\" KeywordInclusion=\"0\" QueryText=\"APM\" QueryTemplate=\"\" TrimDuplicates=\"True\" Site=\"8a24c460-1ef3-4cbd-a838-f7429b68f6fc\" Web=\"ab250fe2-1773-4bf1-b83b-3370d0facdee\" KeywordType=\"True\" HiddenConstraints=\"\" />",
+            "ValueType": "Edm.String"
+          }
+        ]
+      },
+      "SecondaryQueryResults": {
+        "__metadata": {
+          "type": "Collection(Microsoft.Office.Server.Search.REST.QueryResult)"
+        },
+        "results": [
+          {
+            "CustomResults": {
+              "__metadata": {
+                "type": "Collection(Microsoft.Office.Server.Search.REST.CustomResult)"
+              },
+              "results": [
+                {
+                  "GroupTemplateId": null,
+                  "ItemTemplateId": null,
+                  "Properties": {
+                    "results": [
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "ExecutionTimeMs",
+                        "Value": "47",
+                        "ValueType": "Edm.Int32"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "QueryModification",
+                        "Value": "APM",
+                        "ValueType": "Edm.String"
+                      },
+                      {
+                        "__metadata": {
+                          "type": "SP.KeyValue"
+                        },
+                        "Key": "RenderTemplateId",
+                        "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js",
+                        "ValueType": "Edm.String"
+                      }
+                    ]
+                  },
+                  "ResultTitle": "PERSONAL FAVORITES",
+                  "ResultTitleUrl": null,
+                  "Table": {
+                    "__metadata": {
+                      "type": "SP.SimpleDataTable"
+                    },
+                    "Rows": {
+                      "results": []
+                    }
+                  },
+                  "TableType": "PersonalFavoriteResults"
+                }
+              ]
+            },
+            "QueryId": "PersonalFavorite Query",
+            "QueryRuleId": "563b0322-36af-4bcd-a400-00e5e81e0b31",
+            "RefinementResults": null,
+            "RelevantResults": null,
+            "SpecialTermResults": null
+          }
+        ]
+      },
+      "SpellingSuggestion": "",
+      "TriggeredRules": {
+        "__metadata": {
+          "type": "Collection(Edm.Guid)"
+        },
+        "results": []
+      }
+    }
+  }
+}

@@ -1,0 +1,3366 @@
+<d:query xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml" m:type="Microsoft.Office.Server.Search.REST.SearchResult">
+<d:ElapsedTime m:type="Edm.Int32">1700</d:ElapsedTime>
+<d:PrimaryQueryResult m:type="Microsoft.Office.Server.Search.REST.QueryResult">
+<d:CustomResults m:type="Collection(Microsoft.Office.Server.Search.REST.CustomResult)"/>
+<d:QueryId>309b21f0-f245-40e1-8f48-bf78d5fa423a</d:QueryId>
+<d:QueryRuleId m:type="Edm.Guid">00000000-0000-0000-0000-000000000000</d:QueryRuleId>
+<d:RefinementResults m:type="Microsoft.Office.Server.Search.REST.RefinementResults">
+<d:GroupTemplateId m:null="true"/>
+<d:ItemTemplateId m:null="true"/>
+<d:Properties>
+<d:element m:type="SP.KeyValue">
+<d:Key>ExecutionTimeMs</d:Key>
+<d:Value>343</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>QueryModification</d:Key>
+<d:Value>clarity -ContentClass=urn:content-class:SPSPeople</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Properties>
+<d:Refiners m:type="Collection(Microsoft.Office.Server.Search.REST.Refiner)">
+<d:element>
+<d:Entries m:type="Collection(Microsoft.Office.Server.Search.REST.RefinerEntry)">
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">276584</d:RefinementCount>
+<d:RefinementName>CA PPM</d:RefinementName>
+<d:RefinementToken>"ǂǂ43412050504d"</d:RefinementToken>
+<d:RefinementValue>CA PPM</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">54863</d:RefinementCount>
+<d:RefinementName>CLARITY ON DEMAND INFRASTRUCTURE & MAINTENANCE</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e4420494e4652415354525543545552452026204d41494e54454e414e4345"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY ON DEMAND INFRASTRUCTURE & MAINTENANCE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">17733</d:RefinementCount>
+<d:RefinementName>CA Agile Planning</d:RefinementName>
+<d:RefinementToken>"ǂǂ4341204167696c6520506c616e6e696e67"</d:RefinementToken>
+<d:RefinementValue>CA Agile Planning</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">11898</d:RefinementCount>
+<d:RefinementName>CLARITY PPM INTEGRATIONS & INSTALLATIONS</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d20494e544547524154494f4e53202620494e5354414c4c4154494f4e53"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PPM INTEGRATIONS & INSTALLATIONS</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">11205</d:RefinementCount>
+<d:RefinementName>CLARITY ON DEMAND ENVIRONMENTAL</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e4420454e5649524f4e4d454e54414c"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY ON DEMAND ENVIRONMENTAL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">9805</d:RefinementCount>
+<d:RefinementName>
+CLARITY ON DEMAND APPLICATION ADMIN, STUDIO, XOG & PROCESSES
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e44204150504c49434154494f4e2041444d494e2c2053545544494f2c20584f4720262050524f434553534553"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY ON DEMAND APPLICATION ADMIN, STUDIO, XOG & PROCESSES
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">9641</d:RefinementCount>
+<d:RefinementName>
+CLARITY PPM APPLICATION ADMIN, STUDIO, XOG & PROCESSES
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d204150504c49434154494f4e2041444d494e2c2053545544494f2c20584f4720262050524f434553534553"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY PPM APPLICATION ADMIN, STUDIO, XOG & PROCESSES
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">8475</d:RefinementCount>
+<d:RefinementName>CLARITY LEGACY</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c4152495459204c4547414359"</d:RefinementToken>
+<d:RefinementValue>CLARITY LEGACY</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">7280</d:RefinementCount>
+<d:RefinementName>
+CLARITY PPM INVSTMNTS, PRJCTS, RESOURCES & NPIO MANAGEMENT
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d20494e5653544d4e54532c2050524a4354532c205245534f55524345532026204e50494f204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY PPM INVSTMNTS, PRJCTS, RESOURCES & NPIO MANAGEMENT
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">4931</d:RefinementCount>
+<d:RefinementName>
+CLARITY ON DEMAND INVSTMNTS, PRJCTS, RESOURCES & NPIO MGMT
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e4420494e5653544d4e54532c2050524a4354532c205245534f55524345532026204e50494f204d474d54"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY ON DEMAND INVSTMNTS, PRJCTS, RESOURCES & NPIO MGMT
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">4208</d:RefinementCount>
+<d:RefinementName>CLARITY PPM FINANCIALS, TIME & DATA MANAGEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d2046494e414e4349414c532c2054494d4520262044415441204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PPM FINANCIALS, TIME & DATA MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">3965</d:RefinementCount>
+<d:RefinementName>CLARITY PPM ADMIN, STUDIO CONFIG & WORKFLOWS</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d2041444d494e2c2053545544494f20434f4e464947202620574f524b464c4f5753"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PPM ADMIN, STUDIO CONFIG & WORKFLOWS</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">3837</d:RefinementCount>
+<d:RefinementName>CA Governance, Risk ＆ Compliance Manager</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434120476f7665726e616e63652c205269736b20efbc8620436f6d706c69616e6365204d616e61676572"
+</d:RefinementToken>
+<d:RefinementValue>CA Governance, Risk ＆ Compliance Manager</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">3626</d:RefinementCount>
+<d:RefinementName>CLARITY PPM INVESTMENTS, NPIOS, RESOURCES</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d20494e564553544d454e54532c204e50494f532c205245534f5552434553"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PPM INVESTMENTS, NPIOS, RESOURCES</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">3305</d:RefinementCount>
+<d:RefinementName>CLARITY PROJECT MANAGEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050524f4a454354204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PROJECT MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">3182</d:RefinementCount>
+<d:RefinementName>CA PPM APPLICATION ADMIN, STUDIO, XOG & PROCESSES.</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ43412050504d204150504c49434154494f4e2041444d494e2c2053545544494f2c20584f4720262050524f4345535345532e"
+</d:RefinementToken>
+<d:RefinementValue>CA PPM APPLICATION ADMIN, STUDIO, XOG & PROCESSES.</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">3087</d:RefinementCount>
+<d:RefinementName>CLARITY HOSTED INFRASTRUCTURE & MAINTENANCE</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c415249545920484f5354454420494e4652415354525543545552452026204d41494e54454e414e4345"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY HOSTED INFRASTRUCTURE & MAINTENANCE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">2923</d:RefinementCount>
+<d:RefinementName>CA PPM INTEGRATIONS & INSTALLATIONS</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ43412050504d20494e544547524154494f4e53202620494e5354414c4c4154494f4e53"
+</d:RefinementToken>
+<d:RefinementValue>CA PPM INTEGRATIONS & INSTALLATIONS</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">2724</d:RefinementCount>
+<d:RefinementName>
+CLARITY ON DEMAND FINANCIALS, TIME & DATA MANAGEMENT
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e442046494e414e4349414c532c2054494d4520262044415441204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY ON DEMAND FINANCIALS, TIME & DATA MANAGEMENT
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">2449</d:RefinementCount>
+<d:RefinementName>CLARITY APPLICATION ADMIN</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204150504c49434154494f4e2041444d494e"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY APPLICATION ADMIN</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">2353</d:RefinementCount>
+<d:RefinementName>CLARITY PPM TRANSACTION DATA MGMT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d205452414e53414354494f4e2044415441204d474d54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PPM TRANSACTION DATA MGMT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">2352</d:RefinementCount>
+<d:RefinementName>
+PPM INVESTMENTS, PROJECTS, RESOURCES & NPIO MANAGEMENT
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ50504d20494e564553544d454e54532c2050524f4a454354532c205245534f55524345532026204e50494f204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>
+PPM INVESTMENTS, PROJECTS, RESOURCES & NPIO MANAGEMENT
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1785</d:RefinementCount>
+<d:RefinementName>CLARITY BASE</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c41524954592042415345"</d:RefinementToken>
+<d:RefinementValue>CLARITY BASE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1760</d:RefinementCount>
+<d:RefinementName>CLARITY INSTALL</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c415249545920494e5354414c4c"</d:RefinementToken>
+<d:RefinementValue>CLARITY INSTALL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1673</d:RefinementCount>
+<d:RefinementName>CLARITY ARCHITECTURE</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c415249545920415243484954454354555245"</d:RefinementToken>
+<d:RefinementValue>CLARITY ARCHITECTURE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1655</d:RefinementCount>
+<d:RefinementName>CLARITY HOSTING</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c415249545920484f5354494e47"</d:RefinementToken>
+<d:RefinementValue>CLARITY HOSTING</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1523</d:RefinementCount>
+<d:RefinementName>CLARITY REPORTING</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c4152495459205245504f5254494e47"</d:RefinementToken>
+<d:RefinementValue>CLARITY REPORTING</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1468</d:RefinementCount>
+<d:RefinementName>CLARITY STUDIO</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c41524954592053545544494f"</d:RefinementToken>
+<d:RefinementValue>CLARITY STUDIO</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1409</d:RefinementCount>
+<d:RefinementName>PROJECT MANAGEMENT CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ50524f4a454354204d414e4147454d454e5420434c"</d:RefinementToken>
+<d:RefinementValue>PROJECT MANAGEMENT CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1274</d:RefinementCount>
+<d:RefinementName>CLARITY RESOURCE MANAGEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459205245534f55524345204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY RESOURCE MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1201</d:RefinementCount>
+<d:RefinementName>CLARITY TIME MANAGEMENT</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c41524954592054494d45204d414e4147454d454e54"</d:RefinementToken>
+<d:RefinementValue>CLARITY TIME MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1193</d:RefinementCount>
+<d:RefinementName>CLARITY FINANCIAL MANAGEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592046494e414e4349414c204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY FINANCIAL MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1062</d:RefinementCount>
+<d:RefinementName>CA PPM FINANCIALS, TIME & DATA MANAGAEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ43412050504d2046494e414e4349414c532c2054494d4520262044415441204d414e414741454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>CA PPM FINANCIALS, TIME & DATA MANAGAEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1049</d:RefinementCount>
+<d:RefinementName>APPLICATION ADMIN CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ4150504c49434154494f4e2041444d494e20434c"</d:RefinementToken>
+<d:RefinementValue>APPLICATION ADMIN CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">1023</d:RefinementCount>
+<d:RefinementName>ON DEMAND INTERNAL ONLY</d:RefinementName>
+<d:RefinementToken>"ǂǂ4f4e2044454d414e4420494e5445524e414c204f4e4c59"</d:RefinementToken>
+<d:RefinementValue>ON DEMAND INTERNAL ONLY</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">991</d:RefinementCount>
+<d:RefinementName>
+CLARITY ON DEMAND BUSINESS OBJECTS, REPORTING & SOLUTION PKS
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e4420425553494e455353204f424a454354532c205245504f5254494e47202620534f4c5554494f4e20504b53"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY ON DEMAND BUSINESS OBJECTS, REPORTING & SOLUTION PKS
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">958</d:RefinementCount>
+<d:RefinementName>CLARITY SCHEDULER - OWB</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c4152495459205343484544554c4552202d204f5742"</d:RefinementToken>
+<d:RefinementValue>CLARITY SCHEDULER - OWB</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">884</d:RefinementCount>
+<d:RefinementName>CLARITY XOG/GEL/WSDL</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c415249545920584f472f47454c2f5753444c"</d:RefinementToken>
+<d:RefinementValue>CLARITY XOG/GEL/WSDL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">874</d:RefinementCount>
+<d:RefinementName>CL DO NOT USE/CHANGE</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c20444f204e4f54205553452f4348414e4745"</d:RefinementToken>
+<d:RefinementValue>CL DO NOT USE/CHANGE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">830</d:RefinementCount>
+<d:RefinementName>REPORTING CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ5245504f5254494e4720434c"</d:RefinementToken>
+<d:RefinementValue>REPORTING CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">788</d:RefinementCount>
+<d:RefinementName>CLARITY ON DEMAND ADMIN STUDIO CONFIG & WORKFLOWS</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e442041444d494e2053545544494f20434f4e464947202620574f524b464c4f5753"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY ON DEMAND ADMIN STUDIO CONFIG & WORKFLOWS</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">787</d:RefinementCount>
+<d:RefinementName>CLARITY PROCESS/WORKFLOW MANAGEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050524f434553532f574f524b464c4f57204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PROCESS/WORKFLOW MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">787</d:RefinementCount>
+<d:RefinementName>ARCHITECTURE CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ41524348495445435455524520434c"</d:RefinementToken>
+<d:RefinementValue>ARCHITECTURE CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">768</d:RefinementCount>
+<d:RefinementName>INSTALL CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ494e5354414c4c20434c"</d:RefinementToken>
+<d:RefinementValue>INSTALL CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">747</d:RefinementCount>
+<d:RefinementName>
+QUALIFIED PRODUCT LEAD->REDIRECT THE PROSPECT TO DIRECT SALE
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ5155414c49464945442050524f44554354204c4541442d3e5245444952454354205448452050524f535045435420544f204449524543542053414c45"
+</d:RefinementToken>
+<d:RefinementValue>
+QUALIFIED PRODUCT LEAD->REDIRECT THE PROSPECT TO DIRECT SALE
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">723</d:RefinementCount>
+<d:RefinementName>CLARITY ON DEMAND INVESTMENTS, NPIOS, RESOURCES</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e4420494e564553544d454e54532c204e50494f532c205245534f5552434553"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY ON DEMAND INVESTMENTS, NPIOS, RESOURCES</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">690</d:RefinementCount>
+<d:RefinementName>
+CA PPM BUS OJECTS, JASPERSOFT REPORTING & SOLUTION PACKS
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ43412050504d20425553204f4a454354532c204a4153504552534f4654205245504f5254494e47202620534f4c5554494f4e205041434b53"
+</d:RefinementToken>
+<d:RefinementValue>
+CA PPM BUS OJECTS, JASPERSOFT REPORTING & SOLUTION PACKS
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">668</d:RefinementCount>
+<d:RefinementName>PROJECT REGISTRATION</d:RefinementName>
+<d:RefinementToken>"ǂǂ50524f4a45435420524547495354524154494f4e"</d:RefinementToken>
+<d:RefinementValue>PROJECT REGISTRATION</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">662</d:RefinementCount>
+<d:RefinementName>CLARITY SCHEDULER - MSP</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c4152495459205343484544554c4552202d204d5350"</d:RefinementToken>
+<d:RefinementValue>CLARITY SCHEDULER - MSP</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">606</d:RefinementCount>
+<d:RefinementName>UNIFIED INFRASTRUCTURE MANAGEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ554e494649454420494e465241535452554354555245204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>UNIFIED INFRASTRUCTURE MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">591</d:RefinementCount>
+<d:RefinementName>ON DEMAND BREAK_FIX CLARITY</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ4f4e2044454d414e4420425245414b5f4649582020434c4152495459"
+</d:RefinementToken>
+<d:RefinementValue>ON DEMAND BREAK_FIX CLARITY</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">561</d:RefinementCount>
+<d:RefinementName>CA Support Online</d:RefinementName>
+<d:RefinementToken>"ǂǂ434120537570706f7274204f6e6c696e65"</d:RefinementToken>
+<d:RefinementValue>CA Support Online</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">530</d:RefinementCount>
+<d:RefinementName>CLARITY COLLABORATION</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c415249545920434f4c4c41424f524154494f4e"</d:RefinementToken>
+<d:RefinementValue>CLARITY COLLABORATION</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">479</d:RefinementCount>
+<d:RefinementName>CLARITY PORTFOLIO MANAGEMENT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c415249545920504f5254464f4c494f204d414e4147454d454e54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PORTFOLIO MANAGEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">477</d:RefinementCount>
+<d:RefinementName>CLARITY DATAMART</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c415249545920444154414d415254"</d:RefinementToken>
+<d:RefinementValue>CLARITY DATAMART</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">475</d:RefinementCount>
+<d:RefinementName>CLARITY TIMESLICING</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c41524954592054494d45534c4943494e47"</d:RefinementToken>
+<d:RefinementValue>CLARITY TIMESLICING</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">468</d:RefinementCount>
+<d:RefinementName>
+CLARITY PPM BUS OBJECTS, REPORTING & SOLUTION PACKS
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d20425553204f424a454354532c205245504f5254494e47202620534f4c5554494f4e205041434b53"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY PPM BUS OBJECTS, REPORTING & SOLUTION PACKS
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">464</d:RefinementCount>
+<d:RefinementName>DO NOT USE/CHANGE</d:RefinementName>
+<d:RefinementToken>"ǂǂ444f204e4f54205553452f4348414e4745"</d:RefinementToken>
+<d:RefinementValue>DO NOT USE/CHANGE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">424</d:RefinementCount>
+<d:RefinementName>CAPA EDUCATION</d:RefinementName>
+<d:RefinementToken>"ǂǂ4341504120454455434154494f4e"</d:RefinementToken>
+<d:RefinementValue>CAPA EDUCATION</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">418</d:RefinementCount>
+<d:RefinementName>STUDIO CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ53545544494f20434c"</d:RefinementToken>
+<d:RefinementValue>STUDIO CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">397</d:RefinementCount>
+<d:RefinementName>FINANCIAL MANAGEMENT CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ46494e414e4349414c204d414e4147454d454e5420434c"</d:RefinementToken>
+<d:RefinementValue>FINANCIAL MANAGEMENT CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">394</d:RefinementCount>
+<d:RefinementName>General Licensing For All Other Products</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ47656e6572616c204c6963656e73696e6720466f7220416c6c204f746865722050726f6475637473"
+</d:RefinementToken>
+<d:RefinementValue>General Licensing For All Other Products</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">390</d:RefinementCount>
+<d:RefinementName>CLARITY ON DEMAND TRANSACTION DATA MGMT</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e44205452414e53414354494f4e2044415441204d474d54"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY ON DEMAND TRANSACTION DATA MGMT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">383</d:RefinementCount>
+<d:RefinementName>Cloud Service Management</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ436c6f75642053657276696365204d616e6167656d656e74"
+</d:RefinementToken>
+<d:RefinementValue>Cloud Service Management</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">380</d:RefinementCount>
+<d:RefinementName>RESOURCE MANAGEMENT CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ5245534f55524345204d414e4147454d454e5420434c"</d:RefinementToken>
+<d:RefinementValue>RESOURCE MANAGEMENT CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">373</d:RefinementCount>
+<d:RefinementName>SCHEDULER MSP - CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ5343484544554c4552204d5350202d20434c"</d:RefinementToken>
+<d:RefinementValue>SCHEDULER MSP - CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">351</d:RefinementCount>
+<d:RefinementName>CLARITY BETA</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c41524954592042455441"</d:RefinementToken>
+<d:RefinementValue>CLARITY BETA</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">348</d:RefinementCount>
+<d:RefinementName>XOG/GEL/WSDL - CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ584f472f47454c2f5753444c202d20434c"</d:RefinementToken>
+<d:RefinementValue>XOG/GEL/WSDL - CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">332</d:RefinementCount>
+<d:RefinementName>CA ecoGovernance</d:RefinementName>
+<d:RefinementToken>"ǂǂ43412065636f476f7665726e616e6365"</d:RefinementToken>
+<d:RefinementValue>CA ecoGovernance</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">330</d:RefinementCount>
+<d:RefinementName>TIME MANAGEMENT CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ54494d45204d414e4147454d454e5420434c"</d:RefinementToken>
+<d:RefinementValue>TIME MANAGEMENT CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">317</d:RefinementCount>
+<d:RefinementName>SCHEDULER OWB - CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ5343484544554c4552204f5742202d20434c"</d:RefinementToken>
+<d:RefinementValue>SCHEDULER OWB - CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">282</d:RefinementCount>
+<d:RefinementName>BASE CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ4241534520434c"</d:RefinementToken>
+<d:RefinementValue>BASE CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">280</d:RefinementCount>
+<d:RefinementName>DO NOT USE/CHNAGE</d:RefinementName>
+<d:RefinementToken>"ǂǂ444f204e4f54205553452f43484e414745"</d:RefinementToken>
+<d:RefinementValue>DO NOT USE/CHNAGE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">274</d:RefinementCount>
+<d:RefinementName>CA CLARITY BASE</d:RefinementName>
+<d:RefinementToken>"ǂǂ434120434c41524954592042415345"</d:RefinementToken>
+<d:RefinementValue>CA CLARITY BASE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">264</d:RefinementCount>
+<d:RefinementName>CLARITY ON DEMAND INSTALLATIONS & INTEGRATIONS</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c4152495459204f4e2044454d414e4420494e5354414c4c4154494f4e53202620494e544547524154494f4e53"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY ON DEMAND INSTALLATIONS & INTEGRATIONS</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">245</d:RefinementCount>
+<d:RefinementName>CA CLARITY</d:RefinementName>
+<d:RefinementToken>"ǂǂ434120434c4152495459"</d:RefinementToken>
+<d:RefinementValue>CA CLARITY</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">222</d:RefinementCount>
+<d:RefinementName>PRODUCT INFORMATION</d:RefinementName>
+<d:RefinementToken>"ǂǂ50524f4455435420494e464f524d4154494f4e"</d:RefinementToken>
+<d:RefinementValue>PRODUCT INFORMATION</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">212</d:RefinementCount>
+<d:RefinementName>PROCESS/WORKFLOW MGMT CL</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ50524f434553532f574f524b464c4f57204d474d5420434c"
+</d:RefinementToken>
+<d:RefinementValue>PROCESS/WORKFLOW MGMT CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">203</d:RefinementCount>
+<d:RefinementName>CONTRACT LOG</d:RefinementName>
+<d:RefinementToken>"ǂǂ434f4e5452414354204c4f47"</d:RefinementToken>
+<d:RefinementValue>CONTRACT LOG</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">200</d:RefinementCount>
+<d:RefinementName>CLARITY ALPHA</d:RefinementName>
+<d:RefinementToken>"ǂǂ434c415249545920414c504841"</d:RefinementToken>
+<d:RefinementValue>CLARITY ALPHA</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">193</d:RefinementCount>
+<d:RefinementName>API GATEWAY</d:RefinementName>
+<d:RefinementToken>"ǂǂ4150492047415445574159"</d:RefinementToken>
+<d:RefinementValue>API GATEWAY</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">186</d:RefinementCount>
+<d:RefinementName>PORTFOLIO MANAGEMENT CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ504f5254464f4c494f204d414e4147454d454e5420434c"</d:RefinementToken>
+<d:RefinementValue>PORTFOLIO MANAGEMENT CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">179</d:RefinementCount>
+<d:RefinementName>LEGACY - CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ4c4547414359202d20434c"</d:RefinementToken>
+<d:RefinementValue>LEGACY - CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">173</d:RefinementCount>
+<d:RefinementName>COLLABORATION CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ434f4c4c41424f524154494f4e20434c"</d:RefinementToken>
+<d:RefinementValue>COLLABORATION CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">165</d:RefinementCount>
+<d:RefinementName xml:space="preserve">CA PPM</d:RefinementName>
+<d:RefinementToken>"ǂǂ43412050504d20"</d:RefinementToken>
+<d:RefinementValue xml:space="preserve">CA PPM</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">162</d:RefinementCount>
+<d:RefinementName>
+CLARITY HOSTED APPLICATION ADMIN, STUDIO, XOG & PROCESSES
+</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c415249545920484f53544544204150504c49434154494f4e2041444d494e2c2053545544494f2c20584f4720262050524f434553534553"
+</d:RefinementToken>
+<d:RefinementValue>
+CLARITY HOSTED APPLICATION ADMIN, STUDIO, XOG & PROCESSES
+</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">153</d:RefinementCount>
+<d:RefinementName>ETRUST INTERNET SECURITY SUITE</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ45545255535420494e5445524e4554205345435552495459205355495445"
+</d:RefinementToken>
+<d:RefinementValue>ETRUST INTERNET SECURITY SUITE</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">147</d:RefinementCount>
+<d:RefinementName>PRODUCT ENTITLEMENT</d:RefinementName>
+<d:RefinementToken>"ǂǂ50524f4455435420454e5449544c454d454e54"</d:RefinementToken>
+<d:RefinementValue>PRODUCT ENTITLEMENT</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">146</d:RefinementCount>
+<d:RefinementName>UNICENTER SERVICE DESK RXX</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ554e4943454e5445522053455256494345204445534b20525858"
+</d:RefinementToken>
+<d:RefinementValue>UNICENTER SERVICE DESK RXX</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">138</d:RefinementCount>
+<d:RefinementName>GLOBAL SERVICE CENTER - OTHER</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ474c4f42414c20534552564943452043454e544552202d204f54484552"
+</d:RefinementToken>
+<d:RefinementValue>GLOBAL SERVICE CENTER - OTHER</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">136</d:RefinementCount>
+<d:RefinementName>TIMESLICING CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ54494d45534c4943494e4720434c"</d:RefinementToken>
+<d:RefinementValue>TIMESLICING CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">124</d:RefinementCount>
+<d:RefinementName>DATAMART CL</d:RefinementName>
+<d:RefinementToken>"ǂǂ444154414d41525420434c"</d:RefinementToken>
+<d:RefinementValue>DATAMART CL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">123</d:RefinementCount>
+<d:RefinementName>Unicenter Service Desk</d:RefinementName>
+<d:RefinementToken>"ǂǂ556e6963656e7465722053657276696365204465736b"</d:RefinementToken>
+<d:RefinementValue>Unicenter Service Desk</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">119</d:RefinementCount>
+<d:RefinementName>IdentityMinder(Identity Manager)</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ4964656e746974794d696e646572284964656e74697479204d616e6167657229"
+</d:RefinementToken>
+<d:RefinementValue>IdentityMinder(Identity Manager)</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">116</d:RefinementCount>
+<d:RefinementName>CA Identity Manager</d:RefinementName>
+<d:RefinementToken>"ǂǂ4341204964656e74697479204d616e61676572"</d:RefinementToken>
+<d:RefinementValue>CA Identity Manager</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">116</d:RefinementCount>
+<d:RefinementName>ON DEMAND PORTAL</d:RefinementName>
+<d:RefinementToken>"ǂǂ4f4e2044454d414e4420504f5254414c"</d:RefinementToken>
+<d:RefinementValue>ON DEMAND PORTAL</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">114</d:RefinementCount>
+<d:RefinementName>CA Service Operations Insight</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ43412053657276696365204f7065726174696f6e7320496e7369676874"
+</d:RefinementToken>
+<d:RefinementValue>CA Service Operations Insight</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">110</d:RefinementCount>
+<d:RefinementName>CLARITY PPM SAAS OPERATIONS</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ434c41524954592050504d2053414153204f5045524154494f4e53"
+</d:RefinementToken>
+<d:RefinementValue>CLARITY PPM SAAS OPERATIONS</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">103</d:RefinementCount>
+<d:RefinementName>CA Application Performance Management</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ4341204170706c69636174696f6e20506572666f726d616e6365204d616e6167656d656e74"
+</d:RefinementToken>
+<d:RefinementValue>CA Application Performance Management</d:RefinementValue>
+</d:element>
+<d:element>
+<d:RefinementCount m:type="Edm.Int64">98</d:RefinementCount>
+<d:RefinementName>Licensing for ALP Certificates</d:RefinementName>
+<d:RefinementToken>
+"ǂǂ4c6963656e73696e6720666f7220414c5020436572746966696361746573"
+</d:RefinementToken>
+<d:RefinementValue>Licensing for ALP Certificates</d:RefinementValue>
+</d:element>
+</d:Entries>
+<d:Name>products</d:Name>
+</d:element>
+</d:Refiners>
+<d:ResultTitle m:null="true"/>
+<d:ResultTitleUrl m:null="true"/>
+</d:RefinementResults>
+<d:RelevantResults m:type="Microsoft.Office.Server.Search.REST.RelevantResults">
+<d:GroupTemplateId m:null="true"/>
+<d:ItemTemplateId m:null="true"/>
+<d:Properties>
+<d:element m:type="SP.KeyValue">
+<d:Key>GenerationId</d:Key>
+<d:Value>9223372036854775806</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ExecutionTimeMs</d:Key>
+<d:Value>343</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>QueryModification</d:Key>
+<d:Value>clarity -ContentClass=urn:content-class:SPSPeople</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piPageImpressionBlockType</d:Key>
+<d:Value>2</d:Value>
+<d:ValueType>Edm.Byte</d:ValueType>
+</d:element>
+</d:Properties>
+<d:ResultTitle m:null="true"/>
+<d:ResultTitleUrl m:null="true"/>
+<d:RowCount m:type="Edm.Int32">10</d:RowCount>
+<d:Table m:type="SP.SimpleDataTable">
+<d:Rows>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>13.0765972137451</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5068050</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5068050</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>CA Project & Portfolio Management</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/us/products/ca-project-portfolio-management.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value>
+CA Project & Portfolio Management enables you to manage your entire innovation lifecycle and make more informed strategic investments.
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>1</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+Ensure your business strategy is right on target through planning, execution and insights <ddd/> CA PPM Provides the Tools to Successfully Manage Business Investments <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/us/products/ca-project-portfolio-management.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>0_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.8024549484253</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5070048</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5070048</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>CA PPM Learning Paths</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/content/dam/ca/us/files/learning-path/ca-ppm.PDF
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-10T13:23:31.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+on each box to see additional course/exam information in the CA Education Portal <ddd/> AT CA.COM/EDUCATION GET LINKED-IN WITH CA <ddd/> NOTE: CA PPM was previously known as CA <c0>Clarity</c0> PPM <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>pdf</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-10T13:23:31.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>pdf</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/content/dam/ca/us/files/learning-path/ca-ppm.PDF
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>15</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>15</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_PDF.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>1_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.7104272842407</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5079275</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5079275</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>Working at CA Technologies</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/us/why-ca/about-us/sustainability-report/working-at-ca-technologies.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value>
+Our Talent Development strategy focuses on enabling CA Technologies to successfully attract, develop and retain the talent CA needs for organizational sustainability and scalability.
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+job structures and to increase <c0>clarity</c0>, transparency and fairness in individual career <ddd/> at CA Technologies through role <c0>clarity</c0> and definition 
+ Align CA Technologies roles and <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/us/why-ca/about-us/sustainability-report/working-at-ca-technologies.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>2_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.6623706817627</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5070853</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5070853</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>
+Project and Portfolio Management: The Simple Way to Manage Complex Apps
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/us/collateral/videos/ppm-the-simple-way-to-manage-complex-projects.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value>
+This video shows how trends come hot and fast and then go. Your apps need the ability to adapt and turn on a dime. Project and Portfolio Management helps you effectively make decisions across your entire investment portfolio.
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+This video shows how trends come hot and fast and then go. Your apps need the ability to adapt and turn on a dime <ddd/> Project and Portfolio Management helps you effectively make <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/us/collateral/videos/ppm-the-simple-way-to-manage-complex-projects.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>3_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.5929574966431</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>26707</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>26707</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>CA Agile Planning</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/es/products/ca-agile-planning.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+See all Search Results' :
+ 'Full site search <ddd/> (formerly CA <c0>Clarity</c0>™ Agile <ddd/> Agile project management tools to speed project delivery <ddd/> So Why Is No One Happy <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/es/products/ca-agile-planning.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>4_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.4909620285034</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5082095</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5082095</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>CA Project & Portfolio Management</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/ar/collateral/learning-path/ca-project-portfolio-management.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value>
+The CA PPM Learning Paths afford new and existing customers the ability to maximize their full potential for delivering innovative products by providing a comprehensive view of people, projects and portfolios.
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+CA Project &amp; Portfolio Management Learning Paths <ddd/> The CA PPM Learning Paths afford new and existing customers the ability to maximize their full potential for delivering innovative <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/ar/collateral/learning-path/ca-project-portfolio-management.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>5_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.4657688140869</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5074908</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5074908</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>Project and Portfolio Management</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/us/products/project-portfolio-management.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value xml:space="preserve">
+Project and Portfolio Management from CA helps get your people engaged so that your projects really move. Learn more.
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-18T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+When your people are engaged, your projects really move <ddd/> CA Project &amp; Portfolio Management – Supporting How You Work <ddd/> CA Project &amp; Portfolio Management (CA PPM) team has embarked on a <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-18T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/us/products/project-portfolio-management.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>6_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.4494733810425</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5070559</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5070559</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>
+CA Application Performance Management Implementation Services - CA Technologies
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/us/collateral/service-offering/ca-apm-implementation-services.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value xml:space="preserve">
+CA Application Performance Management Implementation Services can help you improve IT service, align IT and business and drive efficiency.
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+CA Application Performance Management (CA APM) allows business services delivery across physical, virtual, cloud and mainframe environments <ddd/> It provides access to integrated UX data <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-19T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/us/collateral/service-offering/ca-apm-implementation-services.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>7_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.4409828186035</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5027642</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5027642</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>
+CA Clarity PPM 14.x Proven Support Professional Exam
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>912</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+http://marketplace.ca.com/education/33clr2324e.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value>
+&nbsp;This is a Basic Support exam for which you may prepare by taking the following courses: CA Clarity PPM Support Troubleshooting and CA Clarity PPM Supportability and Check Install Updates. Register then Start to launch the exam. You will have 60 minutes to complete it. We recommend that you use a secure connection and allow sufficient time to take the entire exam in one sitting. After you answer all exam questions, be sure to submit it to see your results. A score of 80% or higher is required to pass the exam. You are allowed two attempts to pass the exam. Enrollment in a next level course may require successful completion of the previous level course or exam. Keywords: 33CLR23040, CA Clarity PPM Support Troubleshooting, 33CLR23240, CA Clarity PPM Supportability and Check Install Updates
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2017-01-19T11:58:59.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+by taking the following courses: CA <c0>Clarity</c0> PPM Support Troubleshooting and CA <c0>Clarity</c0> PPM Supportability and Check Install Updates <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2017-01-19T11:58:59.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+http://marketplace.ca.com/education/33clr2324e.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>8_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+<d:element m:type="SP.SimpleDataRow">
+<d:Cells>
+<d:element m:type="SP.KeyValue">
+<d:Key>Rank</d:Key>
+<d:Value>12.4237060546875</d:Value>
+<d:ValueType>Edm.Double</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DocId</d:Key>
+<d:Value>5070935</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WorkId</d:Key>
+<d:Value>5070935</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Title</d:Key>
+<d:Value>
+Gartner 2016 Magic Quadrant for IT Project & Portfolio Management Software Applications
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Author</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Size</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Path</d:Key>
+<d:Value>
+https://www.ca.com/us/collateral/industry-analyst-report/gartner-2016-magic-quadrant-for-it-project-and-portfolio-management-software-applications.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Description</d:Key>
+<d:Value>
+See why CA PPM is a leader in the latest Gartner IT PPM Magic Quadrant.
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>Write</d:Key>
+<d:Value>2016-05-24T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>CollapsingStatus</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedSummary</d:Key>
+<d:Value xml:space="preserve">
+Read this report to learn why CA Technologies has been recognized as a “Leader” in the Magic Quadrant for IT Project and Portfolio Management Software Applications, Worldwide <ddd/>
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>HitHighlightedProperties</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>contentclass</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PictureThumbnailURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedEmbedURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ServerRedirectedPreviewURL</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileExtension</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ContentTypeId</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ParentLink</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsLifeTime</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ViewsRecent</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionNames</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SectionIndexes</d:Key>
+<d:Value/>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteLogo</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteDescription</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>deeplinks</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>importance</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int64</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SiteName</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsDocument</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>LastModifiedTime</d:Key>
+<d:Value>2016-05-24T00:00:00.0000000Z</d:Value>
+<d:ValueType>Edm.DateTime</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>FileType</d:Key>
+<d:Value>html</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsContainer</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WebTemplate</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SecondaryFileExtension</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>docaclmeta</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>OriginalPath</d:Key>
+<d:Value>
+https://www.ca.com/us/collateral/industry-analyst-report/gartner-2016-magic-quadrant-for-it-project-and-portfolio-management-software-applications.html
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>EditorOWSUSER</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>DisplayAuthor</d:Key>
+<d:Value m:null="true"/>
+<d:ValueType>Null</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeIdList</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>PartitionId</d:Key>
+<d:Value>0c37852b-34d0-418e-91c6-2ac25af4be5b</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>UrlZone</d:Key>
+<d:Value>0</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>AAMEnabledManagedProperties</d:Key>
+<d:Value>
+AttachmentURI;deeplinks;DefaultEncodingURL;ExternalMediaURL;HierarchyUrl;OrgParentUrls;OrgUrls;OriginalPath;ParentLink;Path;PictureThumbnailURL;PictureURL;PublishingImage;recommendedfor;ServerRedirectedEmbedURL;ServerRedirectedPreviewURL;ServerRedirectedURL;SiteLogo;SitePath;SPSiteURL;UserEncodingURL
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>ResultTypeId</d:Key>
+<d:Value>16</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piSearchResultId</d:Key>
+<d:Value>9_1</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Cells>
+</d:element>
+</d:Rows>
+</d:Table>
+<d:TotalRows m:type="Edm.Int32">370781</d:TotalRows>
+<d:TotalRowsIncludingDuplicates m:type="Edm.Int32">519006</d:TotalRowsIncludingDuplicates>
+</d:RelevantResults>
+<d:SpecialTermResults m:null="true"/>
+</d:PrimaryQueryResult>
+<d:Properties>
+<d:element m:type="SP.KeyValue">
+<d:Key>RowLimit</d:Key>
+<d:Value>10</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SourceId</d:Key>
+<d:Value>8413cd39-2156-4e00-b54d-11efd9abdb89</d:Value>
+<d:ValueType>Edm.Guid</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>WasGroupRestricted</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsPartial</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>piPageImpression</d:Key>
+<d:Value>73461149_3985_1033</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>IsCached</d:Key>
+<d:Value>false</d:Value>
+<d:ValueType>Edm.Boolean</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>SerializedQuery</d:Key>
+<d:Value>
+<Query Culture="en-US" EnableStemming="True" EnablePhonetic="False" EnableNicknames="False" IgnoreAllNoiseQuery="True" SummaryLength="180" MaxSnippetLength="180" DesiredSnippetLength="90" KeywordInclusion="0" QueryText="clarity" QueryTemplate="" TrimDuplicates="True" Site="4a855ec4-0c13-4038-8cc0-5977788df6fd" Web="2877a3c6-372e-4d1a-979e-9a332393716e" KeywordType="True" HiddenConstraints="" />
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Properties>
+<d:SecondaryQueryResults m:type="Collection(Microsoft.Office.Server.Search.REST.QueryResult)">
+<d:element>
+<d:CustomResults m:type="Collection(Microsoft.Office.Server.Search.REST.CustomResult)">
+<d:element>
+<d:GroupTemplateId m:null="true"/>
+<d:ItemTemplateId m:null="true"/>
+<d:Properties>
+<d:element m:type="SP.KeyValue">
+<d:Key>ExecutionTimeMs</d:Key>
+<d:Value>141</d:Value>
+<d:ValueType>Edm.Int32</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>QueryModification</d:Key>
+<d:Value>clarity</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+<d:element m:type="SP.KeyValue">
+<d:Key>RenderTemplateId</d:Key>
+<d:Value>
+~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js
+</d:Value>
+<d:ValueType>Edm.String</d:ValueType>
+</d:element>
+</d:Properties>
+<d:ResultTitle>PERSONAL FAVORITES</d:ResultTitle>
+<d:ResultTitleUrl m:null="true"/>
+<d:Table m:type="SP.SimpleDataTable">
+<d:Rows/>
+</d:Table>
+<d:TableType>PersonalFavoriteResults</d:TableType>
+</d:element>
+</d:CustomResults>
+<d:QueryId>PersonalFavorite Query</d:QueryId>
+<d:QueryRuleId m:type="Edm.Guid">563b0322-36af-4bcd-a400-00e5e81e0b31</d:QueryRuleId>
+<d:RefinementResults m:null="true"/>
+<d:RelevantResults m:null="true"/>
+<d:SpecialTermResults m:null="true"/>
+</d:element>
+</d:SecondaryQueryResults>
+<d:SpellingSuggestion/>
+<d:TriggeredRules m:type="Collection(Edm.Guid)"/>
+</d:query>

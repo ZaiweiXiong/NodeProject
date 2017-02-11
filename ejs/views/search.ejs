@@ -1,0 +1,32 @@
+<head>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/pvl.js"></script>
+</head>
+
+<h1>Tweet results for <%=search%></h1>
+
+<h1>there are  <%=tweets.length%> results by search</h1>
+
+<select style="width:60%"  id="select1">
+<option>test1</option>
+<option>test2</option>
+</select>
+
+<p>
+<div id="product" style="margin-bottom:20px">
+<select style="width:30%"  id="products">product
+<option>Select a product</option>
+<% for (var i=0;i<tweets.length;i++) {%>
+<option><%=tweets[i].RefinementValue%></option>
+<%}%>
+</select>
+</div>
+</p>
+
+<div  id="version" style="margin-bottom:20px">
+	
+</div>
+
+<div  id="Language" style="margin-bottom:20px">
+			
+</div>
