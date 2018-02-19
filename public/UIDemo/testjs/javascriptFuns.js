@@ -1,4 +1,4 @@
-window.onload=test();
+window.onload=testgetValue();
 function test(){
  
 	$('#dt').click(function(){
@@ -24,6 +24,12 @@ function testtb(){
 function testSubmit(){
 	$('#SubmitOne').click(function(){
 		console.log('submit');
+	});
+}
+
+function testgetValue(){
+$('#button1').click(function(){
+		console.log('testgetValue');
 	});
 }
 
