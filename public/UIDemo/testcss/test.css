@@ -1,0 +1,125 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+
+}
+
+.div-header{
+
+	text-align: center;
+	background: blue;
+	border-style: solid;
+	margin:30px;
+	background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/toronto.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  
+}
+
+.div-contains{
+
+   max-width: 1800px;
+   margin:30px;
+   padding: 50px;
+   overflow: hidden;
+  
+
+
+}
+
+.div-menu{
+
+  width: 30%;
+  float: left;
+  min-height: 175px;
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+
+}
+
+.div-content{
+
+ 
+  width: 60%;
+  float: left;
+  padding-left: 30px;
+  min-height: 175px;
+  margin-top: 90px;
+  border-style: dashed;
+
+
+}
+
+
+.div-about{
+  font-family: 'Caveat', cursive;
+  font-weight: 100;
+
+}
+
+#home-table{
+
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+
+}
+
+th,tr{
+  padding:10px;
+}
+td{
+   padding:10px;
+}
+
+.register{
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+
+}
+
+#mydivdelete{
+  padding-left:200px;  
+}
+#mydivfind{
+   padding-left:200px;  
+}
+#mydelete{
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+}
+input{
+  margin: 10px;
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+  border: 3px solid #555;
+}
+#myFind{
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+}
+
+/* footer */
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+}
