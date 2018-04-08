@@ -1,10 +1,17 @@
 window.onload=test;
+
+var host ='http://xzw:8082/';
+//'http://xzw:8082/';
+//'http://localhost:8082/'
+
 function test(){
 	
     loadData ();
 	SelectOne();
+	openMenu ();
 	logInUser() ;
 	logOut ();
+	closeMenu();
 	
 }
 
@@ -12,7 +19,7 @@ function logInUser () {
 	
 	 $.ajax({
 		 
-		  url: 'http://xzw:8082/logIn',
+		  url: host+'logIn',
 	      type: 'get',
 		  dataType: 'json',
 		  error: function(data){
@@ -32,7 +39,7 @@ function logOut () {
 	$("#mylogOut").click(function(){
 		
 		  $.ajax({
-		  url: 'http://xzw:8082/logOut',
+		  url: host+'logOut',
 	      type: 'get',
 		  dataType: 'json',
 		  error: function(data){
@@ -41,7 +48,7 @@ function logOut () {
 			},
 		success: function(data){
 			   alert ('logout user '+data.a);
-			   window.location.href = "http://xzw:8082/login.html"
+			   window.location.href = host+"login.html"
 			}
 			});
 		 
@@ -53,12 +60,12 @@ function testAajx () {
 	
 	$.ajax({
 		
-		  url: 'http://xzw:8082/process_get',
+		  url: host+'process_get',
 	      type: 'get',
 		  dataType: 'json',
 	      error: function(data){
 			  alert('please login');
-			  window.location.href = "http://xzw:8082/login.html"
+			  window.location.href = host+"login.html"
 			},
 		success: function(data){
 			
@@ -98,7 +105,7 @@ function SelectOne () {
 		 var n =$("#find_name").val();
 		 //alert ('FindOne! ' +n);
 		 $.ajax({
-		  url: 'http://xzw:8082/process_findOne'+n,
+		  url: host+'process_findOne'+n,
 	      type: 'get',
 		  dataType: 'json',
 		  error: function(data){
@@ -109,10 +116,39 @@ function SelectOne () {
 			    alert ('find user ! '+data.a);
 				$("#find_name").val("");
 				 //window.location.reload();
-				 window.location.href = "http://xzw:8082/UserTable.html";
+				 window.location.href = host+"UserTable.html";
 				}
 			});
 		
 		});
 	});	
 }
+
+function openMenu () {
+        
+        var w =160;
+		$(document).ready(function(){
+
+			 $("#menu").mouseover(function(){
+
+			 	 $("#mymenu").width(w);
+			 
+				
+			 	});	
+		});	
+}
+
+function closeMenu() {
+
+		$(document).ready(function(){
+
+				 $("#mymenu").mouseleave(function(){
+
+			 	 $("#mymenu").width(0);
+			 
+			 	});	
+		});	
+
+}
+
+

@@ -50,7 +50,28 @@ h1, h2 {
   font-family: 'Caveat', cursive;
   font-weight: 600;
 
+
+  
+  margin:10px;
+
 }
+#mymenu{
+
+   
+   margin:10px;
+   width: 0;
+   
+   overflow-x: hidden;
+   transition: 2s;
+    font-weight: 600;
+
+}
+
+span{
+    margin:10px; 
+}
+
+
 
 .div-content{
 
@@ -81,9 +102,15 @@ h1, h2 {
 
 th,tr{
   padding:10px;
+
 }
 td{
+
    padding:10px;
+}
+td:hover{
+    padding: 20px;
+    color:lightblue;
 }
 
 .register{
@@ -122,4 +149,9 @@ footer {
   text-align: center;
   font-family: 'Caveat', cursive;
   font-weight: 900;
+}
+a:hover{
+  
+  padding: 20px;
+  color:lightblue;
 }

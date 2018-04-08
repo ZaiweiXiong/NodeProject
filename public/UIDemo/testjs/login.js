@@ -1,5 +1,9 @@
 window.onload=test
 
+var host ='http://xzw:8082/';
+//'http://localhost:8082/';
+//'http://xzw:8082/';
+
 function test () {
 	
 		FindOne ();
@@ -14,7 +18,7 @@ function FindOne () {
 		 var n = $("#name").val();
 		
 		 $.ajax({
-		  url: 'http://xzw:8082/isExits'+n,
+		  url:  host+'isExits'+n,
 	      type: 'get',
 		  dataType: 'json',
 		  error: function(data){
@@ -27,7 +31,7 @@ function FindOne () {
 				 window.location.reload();	 
 			   }else {
 				 alert ('welcome user! '+data.a);
-				 window.location.href = "http://xzw:8082/home.html";
+				 window.location.href =  host+"home.html";
 			   }  
 			}
 		 });
