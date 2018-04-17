@@ -1,0 +1,130 @@
+<html>
+<head>  
+<script type="text/javascript" src="./UIDemo/testjs/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="./UIDemo/testcss/test.css">
+<link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
+<script type="text/javascript" src="./UIDemo/testjs/test.js"></script>
+<title>This is test page</title>
+</head> 
+
+<div class='div-header'>
+
+	<h1>this is System</h1>
+</div>
+
+
+
+<div class='div-contains'>
+
+<div class='div-menu'>
+<h1 id='myWelcome'></h1>
+<h3 id="mypre">The register page content appears</h3>
+<span id="menu" >menu</span>
+<div id="mymenu" class="menu">
+<ul>
+<li><a href="/home.html">Home</a></li>
+<li><a href="/register.html">Resister</a></li>
+<li><a href="/UserTable.html">User table</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="#logOut" id="mylogOut">logOut</a></li>
+</ul><br/>
+
+</div>
+</div>
+
+<div class='div-content'>
+
+
+
+
+<div id='mydivmain'>&nbsp 
+
+<form id="addName" class="register" action="http://xzw:8082/process_insert" method="GET">Guest:
+<li class="addla"><b>GuestNo:</b></li> 
+<input  type="text" id="guestNo" class="registerGuest" placeholder="guestNo" name="first_name"></input>
+</br></br>  
+ 
+<li  class="addla">GuestName:</li> 
+<input type="text" id="GuestName" class="registerGuest" placeholder="guestName" name="last_name"></input>
+</br> </br>
+
+ <li  class="addla">GuestDate:</li>
+<input type="date"  class="registerGuest" placeholder="YYYY-MM-DD" value="2017-06-01" name="guestDate">
+</br> </br>
+
+ <li  class="addla">GuestAddress:</li>
+<input type="text"  class="registerGuest" placeholder="guestAddress" name="guestAddress">
+</br> </br>
+
+<li  class="addla">GuestEmail:</li>
+<input type="text"  class="registerGuest" placeholder="guestEmail" name="guestEmail">
+</br> </br>
+
+<li  class="addla">Gender:</li>
+<select type="text" id="registerGender" class="registerGender" placeholder="male/female" name="gender"></select>
+</br> </br>
+
+<input id="btnguest" type="submit"  value="Submit">
+
+</form>
+
+</div>
+<!---div main-->
+
+<div id="divroom" class="divroom">
+<form id="addroom" class="registerRoom" action="http://xzw:8082/process_insertToroom" method="GET">Room:
+
+<li class="addla"><b>RoomNo:</b></li> 
+<input  type="text" id="roomNo" class="registerGuest" placeholder="roomNo" name="roomNo"></input>
+</br></br>  
+
+<li class="addla"><b>hotelNo:</b></li> 
+<input  type="text" id="hotelNo" class="registerGuest" placeholder="hotelNo" name="hotelNo"></input>
+</br></br>  
+
+<li class="addla"><b>hoteName:</b></li> 
+<input  type="text" id="hotelName" class="registerGuest" placeholder="hotelName" name="hotelName"></input>
+</br></br>  
+
+<li class="addla"><b>price:</b></li> 
+<input  type="text" id="hotelpirce" class="registerGuest" placeholder="price" name="hotelprice"></input>
+</br></br>  
+
+<li class="addla"><b>checkInTime:</b></li> 
+<input type="date" id="checkInTime" class="registerGuest" placeholder="2017-06-01" name="checkInTime"></input>
+</br></br>
+
+<li class="addla"><b>guestNo:</b></li> 
+<input type="type" id="checkInTime" class="registerGuest" placeholder="guestNo" name="guestNo"></input>
+</br></br>  
+
+<li class="addla"><b>type:</b></li> 
+<select type="type" id="registertype" class="registerGuest" placeholder="select type room" name="type"></select>
+
+</br></br>  
+
+<input id="btnroom" type="submit"  value="Submit">
+</br></br>  
+<img class="roomimage" id="roomimg" src="./backup/images/standard.jpg"></img>
+</br></br>
+</form> 
+</div>
+<!---div room-->
+
+</div>
+
+</div>
+<!---div content-->
+
+
+<footer>
+<div class='contact-info'>
+
+	<a href="mailto:email@example.com">email@example.com</a>
+            <a href="http://christinatruong.com">example.com</a>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="http://fb.me/">Facebook</a>
+</div>
+</footer>
+</html>

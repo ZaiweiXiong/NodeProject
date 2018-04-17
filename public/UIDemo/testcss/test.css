@@ -1,0 +1,278 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+
+}
+
+.div-header{
+
+	text-align: center;
+	background: blue;
+	border-style: solid;
+	margin:30px;
+	background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/toronto.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  
+}
+
+.div-contains{
+
+   max-width: 1800px;
+   margin:30px;
+   padding: 50px;
+   overflow: hidden;
+  
+
+
+}
+
+.div-menu{
+
+  width: 30%;
+  float: left;
+  min-height: 175px;
+  font-family: 'Caveat', cursive;
+  font-weight: 1000;
+
+  margin:10px;
+
+}
+#mymenu{
+
+   
+   margin:10px;
+   width: 0;
+   
+   overflow-x: hidden;
+   transition: 2s;
+   font-weight: 600;
+
+
+
+}
+
+span{
+    margin:10px; 
+   
+}
+
+
+
+.div-content{
+
+ 
+  width: 60%;
+  float: left;
+  padding-left: 30px;
+  min-height: 175px;
+  margin-top: 90px;
+  border-style: dashed;
+
+
+}
+#mydivmain{
+
+       float: left;
+       width:40%;
+       height:800px;
+       margin: 0;
+
+      
+}
+
+#btnguest{
+
+     float:right;
+     margin-top: 75px;
+     width:100px;
+     color:red;
+}
+#btnroom{
+      float:left;
+      margin-left:20px;
+      width:100px;
+      color:red;
+     
+}
+
+#divroom{
+
+   width: 60%;
+   float: left;
+   margin-top:40px;
+   padding-left: 30px;
+   margin-bottom: 10px;
+   font-family: 'Caveat', cursive;
+   font-weight: 900;
+    border-left:  dashed; 
+   
+
+}
+.roomimage{
+
+     float:right;
+    
+     margin:60px;
+     margin-top:10px;
+    
+
+}
+
+img:hover{
+ 
+}
+
+.div-about{
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+
+}
+
+#home-table{
+
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+
+}
+
+th,tr{
+  padding:10px;
+
+}
+td{
+
+   padding:10px;
+}
+td:hover{
+    padding: 20px;
+    color:lightblue;
+}
+
+.register{
+
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+  padding: 20px;
+ 
+
+}
+.addla{
+
+ margin-left: 2px;
+ 
+ 
+}
+
+.registerGuest{
+
+    width:160px;
+    background: #f1f1f1;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.registerGender{
+
+    font-family: 'Caveat', cursive;
+    font-weight: 900;
+    width:160px;
+    background: #f1f1f1;
+    margin-left: 60px;
+    margin-top: 10px;
+
+}
+#registertype{
+
+   font-family: 'Caveat', cursive;
+    font-weight: 900;
+    width:160px;
+    background: #f1f1f1;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#mydivdelete{
+ float:right;
+ padding: 10px 
+ 
+
+}
+#mydivfind{
+   float:right;
+   padding: 10px
+
+}
+#mydelete{
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+
+}
+
+input{
+  
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+  width:160px;
+  background: #f1f1f1;
+}
+#myFind{
+
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+}
+
+.myselect{
+
+   font-family: 'Caveat', cursive;
+   font-weight: 900;
+   float:left;
+   margin-top: 10px; 
+ 
+   color:red;
+   width:160px;
+   border-style: dashed;
+
+}
+.aboutSelect{
+  
+   font-family: 'Caveat', cursive;
+   font-weight: 900;
+   float:left;
+   margin-top: 10px; 
+   margin-left: 30px;
+   color:red;
+   width:160px;
+   border-style: dashed;
+
+}
+
+/* footer */
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+}
+a:hover{
+  
+  padding: 20px;
+  color:lightblue;
+}
