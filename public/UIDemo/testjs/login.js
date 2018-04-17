@@ -1,6 +1,6 @@
 window.onload=test
 
-var host ='http://xzw:8082/';
+var host ='http://localhost:8082/';
 //'http://localhost:8082/';
 //'http://xzw:8082/';
 
