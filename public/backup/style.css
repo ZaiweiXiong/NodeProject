@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+
+	 font-family: 'Caveat', cursive;
+ 	 font-weight: 400;
+ 	 font-size: 60px;
+ 	  margin: 0;
+ 	 
+}
+.divheader{
+
+  max-width: 950px;
+  margin: 10px auto;
+  padding: 60px 50px;
+  overflow: hidden;
+
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+header{
+
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	background: #2B2D42;
+  color: #8D99AE;
+  padding-top:10px;
+  position:relative;
+}
+.nav{
+
+   padding: 0px;
+   position:fixed;
+   top:0;
+   right:0;
+   left:0;
+   background:white;
+}
+
+.btn{
+  text-decoration: none;
+  display:inline;
+  background: red;
+  color: #8D99AE;
+  padding:10px;
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+.profile-img {
+  border-radius: 70%;
+ 
+  width:300px;
+  float:left;
+  margin-right:30px;
+}
+
+.experience-w{
+    
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+ 
+  background: #EDF2F4;
+
+
+ 
+}
+.col-narrow{
+
+  	   width: 30%;
+  	   float: left;
+  	   margin: 0;
+}
+
+.col-wide{
+
+	 margin-top:20px;
+   width: 70%;
+	 float: left;
+	 margin-top:50px;
+	 padding-left: 30px;
+	 margin-bottom: 10px;
+     
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.education{
+  margin: 10px;
+}
+.education-e{
+
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  background: #EDF2F4;
+
+}
+
+.footer{
+
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	font-size: 22px;
+	background: red;//#2B2D42;
+	margin:10px;
+}
